@@ -1,0 +1,657 @@
+{
+  "tabs": [
+    {
+      "name": "CONVENORS",
+      "sections": [
+        {
+          "name": "Faculty Convenors",
+          "members": [
+            {
+              "id": "c1",
+              "name": "Prof Bulbul Mukerjee",
+              "post": "Faculty Convenor",
+              "img": "/TeamImages/bulbul.jpg",
+              "insta": ""
+            },
+            {
+              "id": "c2",
+              "name": "Prof Kuntala Das",
+              "post": "Faculty Convenor",
+              "img": "/TeamImages/kuntala.jpg",
+              "insta": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZERS",
+      "sections": [
+        {
+          "name": "Techfest Committee",
+          "members": [
+            {
+              "id": "tf1",
+              "name": "Hrishikesh Das",
+              "post": "Technical Secretary",
+              "img": "/teams/unknown.png",
+              "insta": ""
+            },
+            {
+              "id": "tf2",
+              "name": "Ayush Sharma",
+              "post": "Assistant Technical Secretary",
+              "img": "/TeamImages/ayush.jpg",
+              "linkedin": "https://www.linkedin.com/in/sherin-thomas-",
+              "insta": "https://instagram.com/sherin._.thomas?igshid=ZDdkNTZiNTM="
+            },
+            {
+              "id": "tf3",
+              "name": "Ansh Kumar Shaw",
+              "post": "Assistant Technical Secretary",
+              "img": "/TeamImages/ansh.jpg",
+              "insta": "https://www.instagram.com/__gladson",
+              "linkedin": ""
+            },
+            {
+              "id": "tf4",
+              "name": "Rishab Raj",
+              "post": "Assistant Technical Secretary",
+              "img": "/TeamImages/rishab.jpg",
+              "insta": "https://www.instagram.com/__gladson",
+              "linkedin": ""
+            },
+            {
+              "id": "tf5",
+              "name": "Annuradha Kumari",
+              "post": "Assistant Technical Secretary",
+              "img": "/TeamImages/anuradha.jpg",
+              "insta": "https://www.instagram.com/__gladson",
+              "linkedin": ""
+            }
+          ]
+        },
+        {
+          "name": "Technical Support Team",
+          "members": [
+            {
+              "id": "c1",
+              "name": "Vivek Kushal Chakraborty",
+              "post": "",
+              "img": "/TeamImages/vivek.jpg",
+              "insta": "https://www.instagram.com/albinmathewsjoseph/",
+              "linkedin": "https://www.linkedin.com/in/albin-mathews-joseph-4b4b1b1b4/"
+            },
+            {
+              "id": "c2",
+              "name": "Subhro Mohanta",
+              "post": "",
+              "img": "/TeamImages/subhro.jpg",
+              "insta": "",
+              "linkedin": "https://www.linkedin.com/in/subhro-mohanta/",
+              "github": "https://github.com/imSubhro"
+            },
+            {
+              "id": "c3",
+              "name": "Shib Shankar Das",
+              "post": "",
+              "img": "/TeamImages/shib.jpg",
+              "insta": "https://instagram.com/drj.____?igshid=MWYxNmZkY2Y=",
+              "linkedin": ""
+            },
+            {
+              "id": "c4",
+              "name": "Dipak Biswakarma",
+              "post": "",
+              "img": "/TeamImages/dipak.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c5",
+              "name": "Amit Mondal",
+              "post": "",
+              "img": "/TeamImages/amit.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c6",
+              "name": "Jyotirmoy Mandal",
+              "post": "",
+              "img": "/TeamImages/JYOTIRMOY.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c7",
+              "name": "Debdeep Mahapatra",
+              "post": "",
+              "img": "/TeamImages/DEBDEEP.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c8",
+              "name": "Shayeri Ghosh",
+              "post": "",
+              "img": "/TeamImages/shayeri.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c9",
+              "name": "Soham Kar",
+              "post": "",
+              "img": "/TeamImages/soham.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "c10",
+              "name": "Shraddha Kumari",
+              "post": "",
+              "img": "/TeamImages/shraddha.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            }
+          ]
+        },
+        {
+          "name": "Head Coordinators & Coordinators",
+          "members": [
+            {
+              "id": "v1",
+              "name": "Shib Shankar Das",
+              "post": "",
+              "img": "/TeamImages/shib.jpg",
+              "insta": "https://instagram.com/a1_wiin?igshid=ZDdkNTZiNTM=",
+              "linkedin": ""
+            },
+            {
+              "id": "v2",
+              "name": "Dipak Biswakarma",
+              "post": "",
+              "img": "/TeamImages/dipak.jpg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "v3",
+              "name": "Arkaprava Dutta",
+              "post": "",
+              "img": "/TeamImages/Arkaprava.jpg",
+              "insta": "https://instagram.com/a_fx.l?igshid=YmMyMTA2M2Y=",
+              "linkedin": ""
+            },
+            {
+              "id": "v4",
+              "name": "Anshu Sain",
+              "post": "",
+              "img": "/TeamImages/Anshu.jpg",
+              "insta": "https://instagram.com/_s.neha.a_?igshid=ZDdkNTZiNTM=",
+              "linkedin": ""
+            },
+            {
+              "id": "v5",
+              "name": "Md Touheed Nawaz",
+              "post": "",
+              "img": "",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v6",
+              "name": "Debdeep Mahapatra",
+              "post": "",
+              "img": "/TeamImages/DEBDEEP.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v7",
+              "name": "Shayeri Ghosh",
+              "post": "",
+              "img": "/TeamImages/shayeri.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v8",
+              "name": "Lahari Das Chakladar",
+              "post": "",
+              "img": "/TeamImages/lahari.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+             {
+              "id": "v9",
+              "name": "koushani Bhowmik",
+              "post": "",
+              "img": "/TeamImages/Koushani.jpg",
+              "insta": "https://instagram.com/_aary.a_?igshid=MGNiNDI5ZTU=",
+              "linkedin": ""
+            },
+            {
+              "id": "v10",
+              "name": "Jyotirmoy Mandal",
+              "post": "",
+              "img": "/TeamImages/JYOTIRMOY.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v11",
+              "name": "Sneha Dutta",
+              "post": "",
+              "img": "/TeamImages/sneha.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v12",
+              "name": "Soham Kar",
+              "post": "",
+              "img": "/TeamImages/soham.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v13",
+              "name": "Shreya Sarkar",
+              "post": "",
+              "img": "/TeamImages/shreya.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v14",
+              "name": "Soumarit Pramanik",
+              "post": "",
+              "img": "/TeamImages/soumorit.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v15",
+              "name": "Yubraj Sharma",
+              "post": "",
+              "img": "/TeamImages/yubraj.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v16",
+              "name": "Arshad Khan",
+              "post": "",
+              "img": "/TeamImages/arshad.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v17",
+              "name": "Remita Chakraborty",
+              "post": "",
+              "img": "/TeamImages/remita.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v18",
+              "name": "Roopam Satapathi",
+              "post": "",
+              "img": "/TeamImages/roopam.png",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v19",
+              "name": "Soumyadeep Kundu",
+              "post": "",
+              "img": "/TeamImages/soumyadeep.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v20",
+              "name": "Anshuli Arya",
+              "post": "",
+              "img": "/TeamImages/anshuli.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v21",
+              "name": "Subhro Mohanta",
+              "post": "",
+              "img": "/TeamImages/subhro.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v22",
+              "name": "Vivek Kushal Chakraborty",
+              "post": "",
+              "img": "/TeamImages/vivek.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v23",
+              "name": "Jeet Ghosh",
+              "post": "",
+              "img": "/TeamImages/jali.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v24",
+              "name": "Ritisha Ghosh",
+              "post": "",
+              "img": "/TeamImages/ritisha.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v25",
+              "name": "Abhinandan Ghosh",
+              "post": "",
+              "img": "/TeamImages/abhinandan.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v26",
+              "name": "Abir Dey",
+              "post": "",
+              "img": "/TeamImages/abir.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v26",
+              "name": "Amit Mondal",
+              "post": "",
+              "img": "/TeamImages/amit.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v27",
+              "name": "Krishnendu Maity",
+              "post": "",
+              "img": "/TeamImages/krishnendu.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v28",
+              "name": "Moubani Karmakar",
+              "post": "",
+              "img": "/TeamImages/moubani.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v29",
+              "name": "Anshuman Ghosh",
+              "post": "",
+              "img": "/TeamImages/anshuman.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v30",
+              "name": "Suman Panja",
+              "post": "",
+              "img": "/TeamImages/suman.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v31",
+              "name": "Koushik Pramanik",
+              "post": "",
+              "img": "/TeamImages/koushik.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v32",
+              "name": "Jeet Santra",
+              "post": "",
+              "img": "/TeamImages/jeetSantra.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v33",
+              "name": "Shibayan Roy",
+              "post": "",
+              "img": "/TeamImages/Shibayan.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v34",
+              "name": "Ayushman Dutta Gupta",
+              "post": "",
+              "img": "/TeamImages/ayushman.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v35",
+              "name": "Arghya Jana",
+              "post": "",
+              "img": "/TeamImages/arghya.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v36",
+              "name": "Sandita Saha",
+              "post": "",
+              "img": "/TeamImages/sandita.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v37",
+              "name": "Monoshiz Rai",
+              "post": "",
+              "img": "/TeamImages/sandita.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v38",
+              "name": "Prince Gupta",
+              "post": "",
+              "img": "/TeamImages/prince.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v39",
+              "name": "Sumit Shaw",
+              "post": "",
+              "img": "/TeamImages/sumit.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            },
+            {
+              "id": "v40",
+              "name": "Jyotish Yadav",
+              "post": "",
+              "img": "/TeamImages/jyotish.jpg",
+              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
+              "github": "https://github.com/Edwinliby"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DESIGN TEAM",
+      "sections": [
+        {
+          "name": "Design & Media",
+          "members": [
+            {
+              "id": "d1",
+              "name": "Souvik Dutta",
+              "post": "Design Lead Coordinator",
+              "img": "/TeamImages/souvik.jpg",
+              "insta": "https://instagram.com/drj.____?igshid=MWYxNmZkY2Y=",
+              "linkedin": ""
+            },
+            {
+              "id": "d2",
+              "name": "Shib Shankar Das",
+              "post": "Design Lead & Media",
+              "img": "/TeamImages/shib.jpg",
+              "insta": "https://www.instagram.com/that_weird_artkid/",
+              "linkedin": "https://www.linkedin.com/in/gowri-vijayan-8664a7253"
+            },
+            {
+              "id": "d3",
+              "name": "Vivek Kushal Chakraborty",
+              "post": "Design Coordinator",
+              "img": "/TeamImages/vivek.jpg",
+              "insta": "https://instagram.com/arjunmanoj17?igshid=ZDdkNTZiNTM=",
+              "linkedin": ""
+            },
+            {
+              "id": "d4",
+              "name": "Subhro Mohanta",
+              "post": "Design Coordinator",
+              "img": "/TeamImages/subhro.jpg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "d5",
+              "name": "Hrishikesh Das",
+              "post": "Design Coordinator & Media",
+              "img": "/teams/Aswin.png",
+              "insta": "https://www.instagram.com/aswin_thomas_369/",
+              "linkedin": "https://www.linkedin.com/in/aswingt65/"
+            },
+            {
+              "id": "d6",
+              "name": "Amit Mondal",
+              "post": "Design Coordinator",
+              "img": "/TeamImages/amit.jpg",
+              "insta": "https://www.instagram.com/whats_in_a___name____/",
+              "linkedin": ""
+            },
+            {
+              "id": "m1",
+              "name": "Jeet Santra",
+              "post": "Media Lead",
+              "img": "/TeamImages/jeetSantra.jpg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "m2",
+              "name": "Abhiram",
+              "post": "Media Lead",
+              "img": "/teams/Abhiram.jpg",
+              "insta": "https://www.instagram.com/_.abiih",
+              "linkedin": ""
+            },
+            {
+              "id": "m3",
+              "name": "Mahith Tom Saji",
+              "post": "Media Lead",
+              "img": "/teams/MAHITH TOM SAJI.jpg",
+              "insta": "https://www.instagram.com/mahith.tom",
+              "linkedin": ""
+            },
+            {
+              "id": "m4",
+              "name": "Madhav",
+              "post": "Video-Editor Lead",
+              "img": "/teams/Madhav.png",
+              "insta": "",
+              "linkedin": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DEV TEAM",
+      "sections": [
+        {
+          "name": "Techfest Website Developers",
+          "members": [
+            {
+              "id": "Dt1",
+              "name": "Hrishikesh Das",
+              "post": "Lead Developer",
+              "img": "/teams/unknown.png",
+              "insta": "",
+              "linkedin": "www.linkedin.com/in/dashrishikesh",
+              "github": "https://github.com/hrishiD-codes"
+            },
+            {
+              "id": "Dt2",
+              "name": "Subhro Mohanta",
+              "post": "Asst. Developer & UI/UX ",
+              "img": "/TeamImages/subhro.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": "https://github.com/imSubhro"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
