@@ -90,11 +90,11 @@ function Hero() {
           2025 <span className="font-clash">August</span>
         </span>
         <span className="flex gap-2 text-[2rem] font-chakra font-bold">
-          5
-          <b className="text-[16px]">TH</b>
           6
           <b className="text-[16px]">TH</b>
           7
+          <b className="text-[16px]">TH</b>
+          8
           <b className="text-[16px]">TH</b>
         </span>
         <Image
