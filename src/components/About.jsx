@@ -67,11 +67,7 @@ export default function About() {
         <span>Thinking what is</span>
         <span ref={trigger} className="text-[2.5rem] sm:text-[3.5rem] md:text-[5rem] lg:text-[6.5rem] xl:text-[8rem] mt-2 md:mt-4 lg:mt-8">
           <h1 className="text-main_primary">
-            {/* BITS2BYTES{" "} */}
             <Navlink name={"BITS2BYTES ?"} link={"/#"} />
-            {/* <span className="text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6.5rem] xl:text-[8rem] text-white">
-              ?
-            </span> */}
           </h1>
         </span>
         <span className="mt-2 md:mt-4 lg:mt-8"></span>
