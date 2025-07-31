@@ -24,7 +24,7 @@ export default function EventSlider() {
                   CHIEF GUEST
                 </span>
                 <Image
-                  src="/spire2.png"
+                  src="/retro.jpeg"
                   alt="talk show"
                   width={500}
                   height={500}
@@ -42,7 +42,7 @@ export default function EventSlider() {
                   DJ NIGHT
                 </span>
                 <Image
-                  src="/spire2.png"
+                  src="/retro.jpeg"
                   alt="dj"
                   width={500}
                   height={500}
@@ -61,7 +61,7 @@ export default function EventSlider() {
                   PRO SHOW
                 </span>
                 <Image
-                  src="/spire2.png"
+                  src="/retro.jpeg"
                   alt="talk show"
                   width={500}
                   height={500}
@@ -80,7 +80,7 @@ export default function EventSlider() {
                   SPIRE TALK
                 </span>
                 <Image
-                  src="/spire2.png"
+                  src="/retro.jpeg"
                   alt="talk show"
                   width={500}
                   height={500}
@@ -99,7 +99,7 @@ export default function EventSlider() {
                   TALK SHOW
                 </span>
                 <Image
-                  src="/spire2.png"
+                  src="/retro.jpeg"
                   alt="talk show"
                   width={400}
                   height={400}
