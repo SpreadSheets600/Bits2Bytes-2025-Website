@@ -10,7 +10,7 @@ export default function RitModel() {
     },
     {
       id: 2,
-      title: "School",
+      title: "Robotics",
       image: "/slider/events.jpg",
     },
     {
@@ -75,9 +75,22 @@ export default function RitModel() {
             }}
           >
             <div className="bg-gradient-to-t from-black/20 to-transparent  w-full h-full">
-              <h1 className=" text-xl lg:text-4xl font-bold text-center uppercase text-white mt-2 font-clash absolute bottom-0 left-0 rotate-180 w-full py-4 px-2 ">
-                {item.title}
-              </h1>
+              <div className="absolute bottom-0 left-0 w-full py-4 px-2 flex items-center justify-center gap-3">
+                <h1 className="text-xl lg:text-4xl font-bold text-center uppercase text-white font-clash rotate-180">
+                  {item.title}
+                </h1>
+                <div className="rotate-180 text-white hover:text-main_primary transition-colors duration-300">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6 lg:w-8 lg:h-8"
+                  >
+                    <path d="M15.41 16.59L14 18l-6-6 6-6 1.41 1.41L10.83 12l4.58 4.59z" />
+                  </svg>
+                </div>
+              </div>
             </div>
             <Link href={`/events`} className="absolute inset-0">
               <div className="h-full w-full"></div>

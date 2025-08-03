@@ -78,44 +78,44 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/b2b.svg" type="image/svg +xml " />
       </Head>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <main
+          className={`${font_chakra.variable} ${font_clash_display.variable} ${font_ibm.variable} ${font_bebas.variable}`}
         >
-          <main
-            className={`${font_chakra.variable} ${font_clash_display.variable} ${font_ibm.variable} ${font_bebas.variable}`}
-          >
-            <Component {...pageProps} />
-            <Analytics />
+          <Component {...pageProps} />
+          <Analytics />
 
-            <AnimatedCursor
-              innerSize={12}
-              outerSize={20}
-              trailingSpeed={15}
-              color="151, 71, 255"
-              outerAlpha={0.7}
-              innerScale={1.5}
-              outerScale={2}
-              clickables={[
-                "a",
-                'input[type="text"]',
-                'input[type="email"]',
-                'input[type="number"]',
-                'input[type="submit"]',
-                'input[type="image"]',
-                "label[for]",
-                "select",
-                "textarea",
-                "button",
-                ".link",
-              ]}
-            />
-          </main>
-        </motion.div>
+          <AnimatedCursor
+            innerSize={12}
+            outerSize={20}
+            trailingSpeed={15}
+            color="151, 71, 255"
+            outerAlpha={0.7}
+            innerScale={1.5}
+            outerScale={2}
+            clickables={[
+              "a",
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              "label[for]",
+              "select",
+              "textarea",
+              "button",
+              ".link",
+            ]}
+          />
+        </main>
+      </motion.div>
     </>
   );
 }

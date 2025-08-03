@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <div className="px-2 py-4 xl:px-20">
+    <div className="px-2 py-4 xl:px-20 ">
       <div className="flex justify-start w-full font-clash font-bold">
         <span className="text-white text-[5.5rem] xl:text-[7rem]">FAQs</span>
       </div>
