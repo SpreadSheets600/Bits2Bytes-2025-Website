@@ -48,9 +48,6 @@ progress::-webkit-progress-value {
   color: #fff;
 }
 
-.signup {
-  background-image: url("/signup.jpg");
-}
 
 .video-section {
   overflow: hidden;
@@ -67,7 +64,7 @@ progress::-webkit-progress-value {
   object-fit: cover;
 }
 
-.vidDarpan {
+.vidB2B {
   color: #ffffff;
   letter-spacing: 0vw;
   text-align: center;

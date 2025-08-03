@@ -135,13 +135,13 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle::before {
+.toggle:checked+.lbl-toggle::before {
   color: white;
   transform: rotate(-180deg) translateX(-3px);
   transition: all 0.25s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle {
+.toggle:checked+.lbl-toggle {
   color: white;
 }
 
@@ -151,7 +151,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content {
+.toggle:checked+.lbl-toggle+.collapsible-content {
   max-height: fit-content;
 }
 

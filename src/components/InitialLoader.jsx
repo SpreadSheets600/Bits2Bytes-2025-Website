@@ -210,7 +210,7 @@ export default function InitialLoader() {
 
       {/* Brand Watermark */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-xs text-gray/40 font-chakra tracking-widest">
-        BITS2BYTES • TECHNO BENGAL
+        BITS2BYTES • TECH FEST 2025
       </div>
     </div>
   );

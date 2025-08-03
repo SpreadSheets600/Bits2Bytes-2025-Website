@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <>
       <header className="w-full h-[4.5rem] flex items-center py-2 fixed z-[25] border-b-[1.5px] bg-soothing_black/60 border-gray/40 backdrop-blur-md transition-all duration-300 ease-in-out" style={{ transform: isVisible ? "translateY(0)" : "translateY(-100%)" }}>
-        <div className="ml:2 md:ml-4 z-[26]" style={{ opacity: isOpen ? 0 : 1 }}>
+        <div className="ml-2 md:ml-4 z-[26]" style={{ opacity: isOpen ? 0 : 1 }}>
           <Hamburger
             color="white"
             label="Show menu"
@@ -45,16 +45,44 @@ export default function Header() {
             toggled={isOpen}
           />
         </div>
-        <Link className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 hover:scale-110 z-50 transition duration-300  ease-in-out" href="/">
+        <Link className="flex flex-row gap-4 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 hover:scale-110 z-50 transition duration-300  ease-in-out" href="/">
           <Image
-            src="/logo.png"
+            src="/b2b.svg"
             width={45}
             height={45}
             alt="logo"
-            className="opacity-80"
+            className=""
+          />
+          <Image
+            src="/25_logo.svg"
+            width={45}
+            height={45}
+            alt="logo"
+            className=""
+          />
+          <Image
+            src="/tbit.svg"
+            width={42}
+            height={42}
+            alt="logo"
+            className=""
           />
         </Link>
         <progress max="100" value="0"></progress>
+
+        <div className="flex flex-row items-center justify-end gap-2 absolute right-4 z-[26]">
+          <Link href="/events">
+            <button className="group relative overflow-hidden text-white  bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm border border-white/30 
+                       px-6 py-2.5 mx-2 rounded-full shadow-lg 
+                       font-medium font-clash tracking-wide 
+                       transition-all duration-200 ease-out transform 
+                       hover:scale-105 hover:border-main_primary/60 hover:shadow-xl hover:shadow-main_primary/20 
+                       active:translate-y-1 active:shadow-md
+                       border-b-4 border-main_primary active:border-b-0">
+              <span className="relative z-10">Events</span>
+            </button>
+          </Link>
+        </div>
       </header>
 
       {isOpen && (
@@ -117,6 +145,12 @@ export default function Header() {
                 <Navlink name={"TEAMS"} link={"/teams"} setToggle={setOpen} />
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
                   PAGE <br /> 06
+                </p>
+              </div>
+              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+                <Navlink name={"GALLERY"} link={"/gallery"} setToggle={setOpen} />
+                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
+                  PAGE <br /> 07
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@
               "post": "Faculty Convenor",
               "img": "/TeamImages/bulbul.jpg",
               "insta": "",
-              "facebook": ""
+              "facebook": "https://www.facebook.com/share/1CEm53chwZ/?mibextid=wwXIfr"
             },
             {
               "id": "c2",
@@ -20,7 +20,7 @@
               "post": "Faculty Convenor",
               "img": "/TeamImages/kuntala.jpg",
               "insta": "",
-              "facebook": ""
+              "facebook": "https://www.facebook.com/share/1CEm53chwZ/?mibextid=wwXIfr"
             }
           ]
         }
@@ -457,7 +457,7 @@
               "id": "v37",
               "name": "Monoshiz Rai",
               "post": "",
-              "img": "/TeamImages/sandita.jpg",
+              "img": "/TeamImages/imon.jpg",
               "insta": "",
               "linkedin": ""
             },
@@ -544,7 +544,7 @@
               "linkedin": "https://www.linkedin.com/in/amit-mondal-578618218/"
             },
             {
-              "id": "m1",
+              "id": "d7",
               "name": "Jeet Santra",
               "post": "Media Lead",
               "img": "/TeamImages/jeetSantra.jpg",
@@ -552,20 +552,36 @@
               "linkedin": "https://www.linkedin.com/in/jeet-santra-9919b536a/"
             },
             {
-              "id": "m2",
-              "name": "Abhiram",
-              "post": "Media Lead",
-              "img": "",
-              "insta": "",
-              "linkedin": ""
+              "id": "d8",
+              "name": "Surajit Sadhukhan",
+              "post": "Editor",
+              "img": "/TeamImages/surajit.jpg",
+              "insta": "https://www.instagram.com/_.suro_?igsh=MXJwb3FzanY2aWtjeg== ",
+              "linkedin": "https://www.linkedin.com/in/surajit-sadhukhan-4b5b62324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             },
             {
-              "id": "m3",
-              "name": "Mahi",
-              "post": "Media Lead",
-              "img": "",
+              "id": "d9",
+              "name": "Aritra Mondal",
+              "post": "Editor",
+              "img": "/TeamImages/aritra.jpg",
+              "insta": " https://www.instagram.com/aritra.mondal.940436?igsh=MXJ3cDdpancxNmFocg==",
+              "linkedin": " https://www.linkedin.com/in/aritra-mondal-aa32a0325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            },
+            {
+              "id": "d10",
+              "name": "Eman Mahato",
+              "post": "Editor",
+              "img": "/TeamImages/emon.jpg",
+              "insta": " https://www.instagram.com/em_eman_2005?igsh=MW0ycnZrdnB5ZjM2MA==",
+              "linkedin": "https://www.linkedin.com/in/eman-mahato-5726a7322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            },
+            {
+              "id": "d11",
+              "name": "Mehul Singh ",
+              "post": "Editor",
+              "img": "/TeamImages/singh.jpg",
               "insta": "",
-              "linkedin": ""
+              "linkedin": "https://www.linkedin.com/in/mehul-kumar-singh-655b5432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             }
           ]
         }

@@ -63,13 +63,14 @@ const Home = () => {
       <EventSlider />
       <Marque1 />
 
-      <School/>
+      <School />
 
       <div className="bg-gradient-to-b from-primary to-transparent">
         <RitModel />
         <section id="about">
           <About />
         </section>
+
       </div>
 
       <Marque2 />

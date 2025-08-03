@@ -22,14 +22,14 @@ export default function Contact(props) {
   return (
     <div className="h-fit w-screen bg-black">
       <Head>
-        <title>Darpan23 - Contact</title>
+        <title>BITS2BYTES 2025 - Contact</title>
       </Head>
       <Header id="Navbar" />
       {/* <progress max="100" value="0"></progress> */}
       <main className='pt-[5.5rem] bg-[url("/signup.jpg")] h-full'>
         <div className="flex flex-col text-center items-center justify-center h-full gap-2">
           <h1 className="text-5xl text-white font-clash font-semibold">
-            Darpan' 23&nbsp; Contact
+            Bits2Bytes' 25&nbsp; Contact
           </h1>
           <p className="text-2xl text-white font-clash">
             Feel free to contact us
@@ -50,7 +50,7 @@ export default function Contact(props) {
               </h2>
               <span className="text-2xl font-chakra">
                 Ph no :{" "}
-                <Link href="tel:9447789825" className="hover:text-main_primary">
+                <Link href="tel:1234567890" className="hover:text-main_primary">
                   {post.ph}
                 </Link>
               </span>
