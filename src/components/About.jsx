@@ -29,35 +29,6 @@ export default function About() {
         },
       }
     );
-    // gsap.fromTo(
-    //   aboutdarpan.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutdarpan.current,
-    //       start: "top 70%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    //   }
-    // );
-    // gsap.fromTo(
-    //   aboutaec.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutaec.current,
-    //       start: "top 80%",
-    //       end: "bottom 80%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    // //   }
-    // );
   }, []);
 
   return (
@@ -66,7 +37,7 @@ export default function About() {
         <span>You might be</span>
         <span>Thinking what is</span>
         <span ref={trigger} className="text-[2.5rem] sm:text-[3.5rem] md:text-[5rem] lg:text-[6.5rem] xl:text-[8rem] mt-2 md:mt-4 lg:mt-8">
-          <h1 className="text-main_primary">
+          <h1 className="text-turquise">
             <Navlink name={"BITS2BYTES ?"} link={"/#"} />
           </h1>
         </span>
@@ -97,7 +68,7 @@ export default function About() {
       </div>
       
       <div className="absolute font-clash font-bold text-white">
-        <span className="flex gap-4 sm:gap-6 text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5.5rem] text-main_primary">
+        <span className="flex gap-4 sm:gap-6 text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5.5rem] text-turquise">
           About <span className="text-white"><Navlink name={"Techno BIT"} link={"/#"} /></span>
         </span>
       </div>
@@ -114,8 +85,8 @@ export default function About() {
           still offering the conveniences of city life.
         </p>
 
-        <video src="/About.mp4" autoPlay loop muted
-          className="w-full md:w-full lg:w-full xl:w-[28rem] h-[18rem] md:h-[20rem] xl:h-[18rem] object-cover rounded-2xl border-2 border-gray/50"></video>
+        <video src="/" autoPlay loop muted
+          className="w-full md:w-full lg:w-full xl:w-[28rem] h-[18rem] md:h-[20rem] xl:h-[18rem] object-cover rounded-2xl border-2 border-gray/80"></video>
       </div>
         
     </div>

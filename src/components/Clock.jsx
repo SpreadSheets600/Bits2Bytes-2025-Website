@@ -2,7 +2,7 @@ import Countdown from "react-countdown";
 
 function Clock() {
   return (
-    <div className="w-screen flex justify-center my-10 lg:mb-8 ">
+    <div className="w-screen flex justify-center lg:mb-8 ">
       <div className="md:border px-3 rounded-l-md border-gray/80 xl:mt-[8rem] pb-5 xl:pb-10 w-[100] xl:w-[35rem] flex flex-col justify-center items-center z-[10] text-white tracking-[1rem] font-clash">
         <Countdown date={new Date("2025-08-15T00:00:00")}
           className="text-[1.6rem] md:text-[2.5rem] xl:text-[4rem]"
