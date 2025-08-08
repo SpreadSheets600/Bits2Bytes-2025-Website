@@ -1,9 +1,8 @@
 
 import React from 'react';
 
-// Arrow component to replace GoArrowUpRight
 const ArrowUpRight = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 );
@@ -126,13 +125,13 @@ export default function Marque1() {
             <style jsx>{`
                 .marquee-container {
                     font-size: 15px;
-                    padding-block: 8px;
+                    padding-block: 10px;
                     overflow: hidden;
                     user-select: none;
                     --gap: 20px;
                     display: flex;
                     gap: var(--gap);
-                    background-color: #dfff80;
+                    background-color: #c0e4f5;
                 }
 
                 .marquee-container ul {
@@ -162,15 +161,15 @@ export default function Marque1() {
 
                 .marquee-container .name {
                     font-family: 'Chakra Petch', sans-serif;
-                    font-size: medium;
-                    font-weight: 400;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: #2a357d;
                 }
 
                 .marquee-container .arrow {
                     display: flex;
                     align-items: center;
-                    color: black;
-                    font-size: 1.5em;
+                    color: #2a357d;
                 }
             `}</style>
         </>
