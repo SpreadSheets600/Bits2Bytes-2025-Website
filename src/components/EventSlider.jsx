@@ -72,7 +72,7 @@ export default function EventSlider() {
           </div>
         </div>
 
-        <div data-tilt className="w-fit relative scale-105">
+        {/* <div data-tilt className="w-fit relative scale-105">
           <div className="updown">
             <div className="flex items-center justify-center w-full h-[22rem] xl:h-[30rem] rounded-sm bg-main_primary/50 backdrop:blur-xl hover:-skew-x-6 skew-y-3 transition-all duration-300 ease-in-out">
               <div className="w-full h-[22rem] xl:h-[30rem] rounded-sm  bg-gray hover:skew-x-6 hover:scale-105 transition-all duration-300 ease-in-out">
@@ -89,9 +89,9 @@ export default function EventSlider() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div data-tilt className="w-fit relative scale-105">
+        {/* <div data-tilt className="w-fit relative scale-105">
           <div className="updown">
             <div className="flex items-center justify-center w-[15rem] lg:w-full h-[22rem] xl:h-[30rem] rounded-sm bg-main_primary/50 backdrop:blur-xl hover:-skew-x-6 skew-y-3 transition-all duration-300 ease-in-out">
               <div className="w-[15rem] lg:w-full h-[22rem] xl:h-[30rem] rounded-sm  bg-gray hover:skew-x-6 hover:scale-105 transition-all duration-300 ease-in-out">
@@ -108,7 +108,7 @@ export default function EventSlider() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

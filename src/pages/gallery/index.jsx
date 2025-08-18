@@ -269,42 +269,10 @@ export default function Gallery() {
                                         Stay tuned for more amazing moments from BITS2BYTES 2025
                                     </p>
                                 </div>
-
-
-
-                                {/* Floating Progress Indicator */}
-                                <div className="mt-8">
-                                    <div className="w-32 h-1 bg-white/10 rounded-full mx-auto overflow-hidden">
-                                        <div className="h-full bg-gradient-to-r from-main_primary to-purple-400 rounded-full animate-pulse w-3/4"></div>
-                                    </div>
-                                    <p className="text-white/40 text-xs font-chakra mt-2">75% Collection Complete</p>
-                                </div>
                             </div>
                         </div>
 
-                        {/* Camera Stats */}
-                        <div className="flex items-center justify-center gap-8 mt-8 text-white/60 font-chakra text-sm">
-                            <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-main_primary" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 15.2c1.74 0 3.2-1.46 3.2-3.2s-1.46-3.2-3.2-3.2S8.8 10.26 8.8 12s1.46 3.2 3.2 3.2zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" />
-                                </svg>
-                                <span>500+ Photos</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-main_primary" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z" />
-                                </svg>
-                                <span>50+ Events</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <svg className="w-4 h-4 text-main_primary" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                                </svg>
-                                <span>3 Days of Fun</span>
-                            </div>
-                        </div>
                     </div>
-
                     {/* Modal for full-size image */}
                     {selectedImage && (
                         <div

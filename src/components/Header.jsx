@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full h-[4.5rem] flex items-center py-2 fixed z-[25] border-b-[1.5px] bg-soothing_black/30 border-gray/30 backdrop-blur-lg transition-all duration-300 ease-in-out" style={{ transform: isVisible ? "translateY(0)" : "translateY(-100%)" }}>
+      <header className="w-full h-[4.5rem] flex items-center justify-between py-2 fixed z-[25] border-b-[1.5px] bg-soothing_black/30 border-gray/30 backdrop-blur-lg transition-all duration-300 ease-in-out" style={{ transform: isVisible ? "translateY(0)" : "translateY(-100%)" }}>
         <div className="ml-2 md:ml-4 z-[26]" style={{ opacity: isOpen ? 0 : 1 }}>
           <Hamburger
             color="white"
@@ -68,7 +68,11 @@ export default function Header() {
             className=""
           />
         </Link>
-        <progress max="100" value="0"></progress>
+
+        <button className="px-11 py-3 bg-main_primary text-white font-semibold font-clash rounded-md shadow-lg hover:bg-white  hover:text-main_primary transition-colors duration-300 mr-5 hidden xl:block">
+          <a href="/Brochure.pdf" download> BROCHURE </a>
+        </button>
+        {/* <progress max="100" value="0"></progress> */}
       </header>
 
       {isOpen && (

@@ -61,7 +61,7 @@ export default function Footer() {
               <Link href="#" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-youtubeColor hover:bg-white">
                 <FaYoutube size="3rem" />
               </Link>
-              <Link href="https://www.instagram.com/bit_bits2bytes/" target="_blank" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:text-white">
+              <Link href="https://www.instagram.com/tbit_bits2bytes/" target="_blank" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:text-white">
                 <FaInstagram size="3rem" />
               </Link>
               <Link href="https://www.facebook.com/bits2bytes.bit/" target="_blank" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:bg-facebookColor hover:text-white">

@@ -6,12 +6,12 @@ export default function RitModel() {
     {
       id: 1,
       title: "Technical Events",
-      image: "/slider/cultural.jpg",
+      image: "/slider/technical.jpeg",
     },
     {
       id: 2,
       title: "Robotics",
-      image: "/slider/events.jpg",
+      image: "/slider/robotics.jpeg",
     },
     {
       id: 3,
@@ -25,8 +25,8 @@ export default function RitModel() {
     },
     {
       id: 5,
-      title: "Proshows",
-      image: "/slider/proshow.jpeg",
+      title: "Talkshows",
+      image: "/slider/events.jpg",
     },
   ];
 
