@@ -79,7 +79,7 @@ function Hero() {
             TECH FEST
           </span>
           <button className="px-11 py-3 bg-main_primary text-white font-semibold font-clash rounded-md shadow-lg hover:bg-white  hover:text-main_primary transition-colors duration-300 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <a href="#" download>BROCHURE</a>
+            <a href="/Brochure.pdf" download>BROCHURE</a>
           </button>
         </div>
 

@@ -68,7 +68,7 @@
       {
         "id": "cosmic_contour",
         "title": "Cosmic Contour: Basic Science Project Challenge",
-        "img": "",
+        "img": "/Eventposter/cosmic.png",
         "content": "",
         "description": "COSMIC CONTOUR is a Basic Science project competition designed to test analytical and scientific problem-solving skills. Participants must create innovative hardware projects based purely on basic science concepts — no microcontrollers allowed. The event challenges creativity, originality, and practical application of science, promising an exciting and knowledge-driven experience.",
         "c1name": "Soumorit Pramanik",
@@ -95,7 +95,7 @@
       {
         "id": "genfusion",
         "title": "GenFusion: Innovate, Integrate, Impact",
-        "img": "",
+        "img": "/Eventposter/Genfusion.png",
         "content": "",
         "description": "GenFusion is where innovation meets intelligence — a platform to explore real-world domains, build impactful solutions, and fuse ambition with algorithms. Participants will progress through ideation, prototyping, and final deployment, developing solutions that create real-time impact. The event features multiple screening rounds evaluating creativity, technical skills, and practicality.",
         "c1name": "Soham Kar",
@@ -205,7 +205,7 @@
       {
         "id": "code_ardor",
         "title": "Code Ardor",
-        "img": "",
+        "img": "/Eventposter/codeardor.png",
         "content": "",
         "description": "🚀 Code Ardor is the ultimate MCQ-based coding challenge to test your programming logic, syntax, and problem-solving skills. Tackle 20 multiple-choice questions covering C, C++, Java, JavaScript, and Python. Compete in a high-speed coding sprint, race through the leaderboard, and prove your coding prowess. Whether you're a beginner or a seasoned coder, Code Ardor promises a thrilling tech experience where speed meets accuracy. 🧠 Think Fast. Code Smart. Compete Boldly.",
         "c1name": "Krishnendu Maity",
@@ -234,7 +234,7 @@
       {
         "id": "Robo_soccer",
         "title": "Robo Soccer",
-        "img": "",
+        "img": "/Eventposter/Robosoccer.png",
         "content": "Embark to the ultimate Journey of Soccer adventure",
         "description": "Robo Soccer is an electrifying event where two 🤖 bots (car-like) compete in a thrilling ⚽ football match. Each bot is remotely controlled by a human 🎮, demanding sharp focus and swift moves. Players guide their bots to dribble, defend, and score goals just like real soccer stars. The field turns into a battleground of speed, precision, and smart strategies. Get ready for non-stop action, roaring goals, and robotic rivalry 🤖⚡⚽!",
         "c1name": "Roopam Satapathi",
@@ -261,7 +261,7 @@
       {
         "id": "Robo_rally",
         "title": "Robo Rally",
-        "img": "",
+        "img": "/Eventposter/Roborally.png",
         "content": "Come and participate in the Robo Rally the ultimate race between machines and minds",
         "description": "Welcome to Robo Rally 🤖 — the ultimate race begins where machines race and minds compete. Dodge obstacles, beat your rivals, and own the track.   Only sharp reflexes and fast moves keep you ahead. Get ready to grab the winning tag! 🏁",
         "c1name": "Ritisha Ghosh",
@@ -288,7 +288,7 @@
       {
         "id": "Quadx",
         "title": "Quad X",
-        "img": "/games/robo.jpg",
+        "img": "/Eventposter/QuadX.png",
         "content": "Robo Race Competition",
         "description": "Looking for an exciting and futuristic way to showcase your skills and compete against other racing enthusiasts? 🚗Look no further than the Robo Race Game Competition! 🎮",
         "c1name": "Pavi Prasad",
@@ -344,7 +344,7 @@
       {
         "id": "math_pirates",
         "title": "Math Pirates  ",
-        "img": "",
+        "img": "/Eventposter/math.png",
         "content": "",
         "description": "🏴‍☠ Math Pirates is a fun and exciting event where students solve different types of math problems in a creative way. Just like pirates hunting for treasure, participants will go on a journey full of brain-teasing puzzles, quick calculations, and logic-based questions. It’s not just about speed — it’s about smart thinking, teamwork, and enjoying the thrill of problem-solving. Whether you’re great at math or simply love challenges, Math Pirates is a fun way to learn and boost your confidence in mathematics.",
         "c1name": "Anshuman Ghosh",
