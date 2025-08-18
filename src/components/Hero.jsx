@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { gsap } from "gsap";
 // import Marque1 from "./Marque1";
 
@@ -75,19 +75,19 @@ function Hero() {
           </div>
           <span
             ref={subtitle2}
-            className="opacity-0 relative top-[-5rem] text-[3.5rem] sm:text-[5rem] md:text-[7rem] font-clash"
-          >
+            className="opacity-0 relative top-[-5rem] text-[3.5rem] sm:text-[5rem] md:text-[7rem] font-clash">
             TECH FEST
           </span>
+          <button className="px-11 py-3 bg-main_primary text-white font-semibold font-clash rounded-md shadow-lg hover:bg-white  hover:text-main_primary transition-colors duration-300 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <a href="#" download>BROCHURE</a>
+          </button>
         </div>
-
-        {/* <Marque1 />       */}
 
         <div
           ref={date}
           className="relative md:ml-10 opacity-0 flex flex-col font-bold bg-white w-fit text-xl rounded-md text-black p-2 pr-8 ml-[1.5rem] md:text-3xl  z-10">
           <span className="font-chakra">
-            2025 <span className="font-clash">August</span>
+            September <span className="font-clash">2025</span>
           </span>
           <span className="flex gap-2 text-[2rem] font-chakra font-bold">
             15
@@ -97,13 +97,6 @@ function Hero() {
             17
             <b className="text-[16px]">TH</b>
           </span>
-          <Image
-            src="/edgeTriangle.png"
-            width={30}
-            height={30}
-            alt="edgetriangle"
-            className="absolute bottom-[-1px] right-[-1px]"
-          />
         </div>
       </div>
     </>

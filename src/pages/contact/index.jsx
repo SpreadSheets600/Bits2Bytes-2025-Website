@@ -22,7 +22,7 @@ export default function Contact(props) {
   return (
     <div className="h-fit w-screen bg-darkPurple">
       <Head>
-        <title>BITS2BYTES 2025 - Contact</title>
+        <title>BITS2BYTES 2K25 Contact</title>
       </Head>
       <Header id="Navbar" />
       <main className='pt-[5.5rem] bg-[url("/signup.jpg")] h-full'>
