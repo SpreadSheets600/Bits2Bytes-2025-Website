@@ -19,6 +19,10 @@ module.exports = {
         footer: "#1B1B1B",
         facebookColor: "#1877F2",
         youtubeColor: "#FF0000",
+        purple: "#6c5da1",
+        darkPurple: "#6f60a3",
+        turquise: "#bfe4f5",
+        metalBlue: "#2a357d",
       },
       screens: {
         sm: "496px",

@@ -43,7 +43,7 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
-  const [loading, setLoading] = React.useState(false);
+  // const [loading, setLoading] = React.useState(false);
   const [initialLoading, setInitialLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -52,12 +52,12 @@ export default function MyApp({ Component, pageProps }) {
     }, 2700);
 
     const handleStart = () => {
-      setLoading(true);
+      // setLoading(true);
       setTimeout(() => {
-        setLoading(false);
+        // setLoading(false);
+        console.log("setLoading False");
       }, 2700);
     };
-
     router.events.on(
       "routeChangeStart",
       (url) => url != router.asPath && handleStart()
