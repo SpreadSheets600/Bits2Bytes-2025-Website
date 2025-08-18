@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div className="bg-darkPurple h-fit">
       <Head>
-        <title>BITS2BYTES 2025</title>
+        <title>BITS2BYTES 2K25</title>
       </Head>
 
       <Header id="navbar" />

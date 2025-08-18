@@ -89,7 +89,7 @@ export default function Gallery() {
     return (
         <div className="bg-soothing_black min-h-screen">
             <Head>
-                <title>Gallery - BITS2BYTES 2025</title>
+                <title>BITS2BYTES 2K25 Gallery</title>
                 <meta name="description" content="Explore the gallery of BITS2BYTES 2025 - memorable moments from our tech fest" />
             </Head>
 

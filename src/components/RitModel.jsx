@@ -65,11 +65,11 @@ export default function RitModel() {
         Explore Your Interests
       </h1>
 
-      <section class="flex flex-col items-center lg:flex-row lg:items-stretch justify-between w-[90%] max-w-[70rem] lg:h-[70vh] h-[100vh] mt-12">
+      <section className="flex flex-col items-center lg:items-stretch lg:flex-row justify-between w-[90%] max-w-[70rem] lg:h-[70vh] h-[100vh] mt-12">
         {itemList.map((item) => (
           <article
             key={item.id}
-            class="flex-card-container bg-cover bg-no-repeat"
+            className="flex-card-container bg-cover bg-no-repeat"
             style={{
               backgroundImage: `url(${item.image})`,
             }}
@@ -85,7 +85,7 @@ export default function RitModel() {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-6 h-6 lg:w-8 lg:h-8"
+                    className="w-6 h-6 lg:w-8 lg:h-8 lg:block"
                   >
                     <path d="M15.41 16.59L14 18l-6-6 6-6 1.41 1.41L10.83 12l4.58 4.59z" />
                   </svg>

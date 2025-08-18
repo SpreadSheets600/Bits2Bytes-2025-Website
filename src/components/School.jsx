@@ -11,11 +11,9 @@ export default function School() {
 
     return (
         <>
-            <section className="w-full min-h-screen flex flex-col items-center justify-center py-16 px-4 bg-gradient-to-br from-soothing_black via-primary to-black text-white relative overflow-hidden"
-            >
-                <div className="border-2 border-main_primary/40 rounded-2xl p-8 md:p-12 w-full shadow-2xl bg-gradient-to-br from-soothing_black/95 via-primary/20 to-soothing_black/95 backdrop-blur-sm"
-                >
-                    <p className="text-center text-lg md:text-2xl font-medium font-clash pb-2">&#123;   Welcome &#125;</p>
+            <section className="w-full min-h-screen flex flex-col items-center justify-center py-16 px-4 bg-gradient-to-br from-soothing_black via-primary to-black text-white relative overflow-hidden">
+                <div className="border-2 border-main_primary/40 rounded-2xl p-8 md:p-12 w-full shadow-2xl bg-gradient-to-br from-soothing_black/95 via-primary/20 to-soothing_black/95 backdrop-blur-sm">
+                    <p className="text-center text-lg md:text-2xl font-medium font-clash pb-2">&#123;Welcome &#125;</p>
 
                     {/* Title Section */}
                     <div className="flex gap-2 w-full">
@@ -41,7 +39,6 @@ export default function School() {
                         </div>
                     </div>
 
-
                     {/* events Display */}
                     <div className="flex justify-center items-center mt-[3rem] mb-[3rem] sm:mt-[5rem] sm:mb-[5rem] md:mt-[7rem] md:mb-[7rem] lg:mt-[12rem] lg:mb-[15rem] w-full h-20" >
                         <Image
@@ -55,7 +52,7 @@ export default function School() {
 
                     <div className="text-center mb-8">
                         <p className="text-lg md:text-2xl text-white font-chakra font-semibold tracking-wide leading-relaxed">
-                            Friday, August 15 <span className="dot-text-color p-2">&#x25CF;</span> 12:00 PM
+                            Monday, September 15
                         </p>
                         <p className="text-lg md:text-2xl text-white font-chakra  tracking-wide leading-relaxed"> Join us for an exciting journey of learning and discovery at the Junior Genius Zone!</p>
                     </div>

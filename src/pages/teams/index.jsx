@@ -16,7 +16,7 @@ function Team(props) {
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>BITS2BYTES 2025 Teams</title>
+        <title>BITS2BYTES 2K25 Teams</title>
       </Head>
       <Header id="navbar" />
 

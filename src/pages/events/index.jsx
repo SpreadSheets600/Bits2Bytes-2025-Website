@@ -32,7 +32,7 @@ export default function Events({ posts, names }) {
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>BITS2BYTES 2025 - Events</title>
+        <title>BITS2BYTES 2K25 Events</title>
       </Head>
       <Header id="navbar" />
       {/* <progress max="100" value="0"></progress> */}
