@@ -98,7 +98,10 @@ function EventsDetails(props) {
                 <button
                   className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
                   onClick={() => {
-                    props.reg == "Register Closed" ? null : setPopUp(true);
+                    // Check if registration is available and reglink exists
+                    if (props.reg === "Register Here" && props.reglink) {
+                      setPopUp(true);
+                    }
                   }}
                 >
                   {props.reg}
@@ -132,13 +135,15 @@ function EventsDetails(props) {
         <Footer />
       </section>
 
-      {popUp && (
+      {/* {popUp && (
         <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-50 flex justify-center items-center animate-fadeIn ">
-          <div className="relative w-full h-full max-w-[90%] lg:max-w-[80%]  xl:max-w-[70%]   max-h-[90%] flex flex-col justify-center items-center">
-            <div className="absolute top-0 right-0 p-4">
-              <button className="bg-transparent text-black rounded-full w-12 h-12 flex text-xl justify-center items-center font-semibold hover:bg-main_primary/90 hover:text-white transition duration-300 ease-in-out "
-                onClick={() => setPopUp(false)}>
-                X
+          <div className="relative w-full h-full max-w-[90%] lg:max-w-[80%] xl:max-w-[70%] max-h-[90%] flex flex-col justify-center items-center">
+            <div className="absolute top-5 right-5 z-10">
+              <button
+                className="bg-white text-black rounded-full w-12 h-12 flex text-xl justify-center items-center font-semibold hover:bg-red-500 hover:text-white transition duration-300 ease-in-out shadow-lg"
+                onClick={() => setPopUp(false)}
+              >
+                ✕
               </button>
             </div>
             <iframe
@@ -146,10 +151,13 @@ function EventsDetails(props) {
               height="100%"
               className="rounded-md"
               src={props.reglink}
-            ></iframe>
+              title="Registration Form"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            />
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 }
@@ -190,7 +198,7 @@ export async function getStaticProps(context) {
       c1name: post.c1name,
       c2name: post.c2name,
       register: post.reg,
-      reglink: post.reglink,
+      reglink: post.reglink, // This should contain your Google Form URL
       reg: post.reg,
       rulehead: post.ruleheader,
       rule1: post.rules.rule1,
