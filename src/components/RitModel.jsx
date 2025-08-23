@@ -6,7 +6,7 @@ export default function RitModel() {
     {
       id: 1,
       title: "Technical Events",
-      image: "/slider/technical.jpeg",
+      image: "/slider/tech.png",
     },
     {
       id: 2,
