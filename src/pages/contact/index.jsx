@@ -2,7 +2,6 @@ import Head from "next/head";
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/all";
 import { motion } from 'framer-motion';
@@ -10,6 +9,7 @@ import { FaInstagram, FaWhatsapp, FaEnvelope, FaPhone, FaMapMarkerAlt } from 're
 
 export default function Contact(props) {
   const posts = props.posts;
+  console.log(posts);
 
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -58,10 +58,30 @@ export default function Contact(props) {
 
             {/* Premium Social Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-12">
-
-
-
-
+              <motion.div
+                className="group relative bg-gradient-to-br from-orange-500 to-pink-500 p-[2px] rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300"
+                whileHover={{ scale: 1.05, y: -5 }}
+                whileTap={{ scale: 0.95 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.9 }}
+              >
+                <div className="bg-white rounded-2xl p-6 h-full flex flex-col items-center justify-center text-center min-h-[200px]">
+                  <div className="bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 p-4 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+                    <FaInstagram className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="font-bold text-gray-800 mb-2 text-lg font-clash">Instagram</h3>
+                  <p className="text-gray-600 text-sm mb-4 font-clash">Follow us for updates</p>
+                  <a
+                    href="https://www.instagram.com/tbit_bits2bytes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full text-sm font-semibold hover:shadow-lg transition-all duration-200 font-clash"
+                  >
+                    Follow Us
+                  </a>
+                </div>
+              </motion.div>
 
               {/* WhatsApp Card */}
               <motion.div
@@ -79,7 +99,7 @@ export default function Contact(props) {
                   <h3 className="font-bold text-gray-800 mb-2 text-lg font-clash">WhatsApp</h3>
                   <p className="text-gray-600 text-sm mb-4 font-clash">Quick support chat</p>
                   <a
-                    href="https://wa.me/919876543210"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-green-400 to-green-600 text-white px-6 py-2 rounded-full text-sm font-semibold hover:shadow-lg transition-all duration-200 font-clash"
@@ -104,12 +124,7 @@ export default function Contact(props) {
                   </div>
                   <h3 className="font-bold text-gray-800 mb-2 text-lg font-clash">Email</h3>
                   <p className="text-gray-600 text-sm mb-4 font-clash">Official inquiries</p>
-                  <a
-                    href="mailto:impulse@tbit.ac.in"
-                    className="bg-gradient-to-r from-main_primary to-pink-500 text-white px-6 py-2 rounded-full text-sm font-semibold hover:shadow-lg transition-all duration-200 font-clash"
-                  >
-                    Send Email
-                  </a>
+                  <p className="text-black mb-2 text-lg font-chakra">bits2bytes@bitcollege.in</p>
                 </div>
               </motion.div>
             </div>
@@ -117,7 +132,7 @@ export default function Contact(props) {
             {/* Additional Contact Information */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
               <motion.div
-                className="bg-white/10 border-[.5px] border-gray-400/60 backdrop-blur-lg rounded-xl p-6 shadow-xl hover:scale-105 hover:shadow-main_primary hover:shadow-md transition-all duration-500 ease-in-out"
+                className="bg-white/10 border-[1px] border-white backdrop-blur-lg rounded-xl p-6 shadow-xl hover:scale-105 hover:shadow-main_primary hover:shadow-md transition-all duration-500 ease-in-out"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 1.1 }}
@@ -128,12 +143,13 @@ export default function Contact(props) {
                   </div>
                 </div>
                 <h3 className="font-bold text-white mb-2 text-lg sm:text-xl font-clash">Call Us</h3>
-                <p className="text-white mb-2 text-lg font-chakra">+91 98765 43210</p>
-                <p className="text-sm text-gray-300 font-chakra">Mon-Fri, 9AM-6PM IST</p>
+                <p className="text-white mb-2 text-lg font-chakra">+91 9801929811</p>
+                <p className="text-white mb-2 text-lg font-chakra">+91 9330108191</p>
+                <p className="text-sm text-white font-chakra">Mon-Fri, 9AM-5PM IST</p>
               </motion.div>
 
               <motion.div
-                className="bg-white/10 border-[.5px] border-gray-400/60 backdrop-blur-lg rounded-xl p-6 shadow-xl hover:scale-105 hover:shadow-main_primary hover:shadow-md transition-all duration-500 ease-in-out"
+                className="bg-white/10 border-[1px] border-white backdrop-blur-lg rounded-xl p-6 shadow-xl hover:scale-105 hover:shadow-main_primary hover:shadow-md transition-all duration-500 ease-in-out"
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
@@ -145,7 +161,7 @@ export default function Contact(props) {
                 </div>
                 <h3 className="font-bold text-white mb-2 text-lg sm:text-xl font-clash">Visit Us</h3>
                 <p className="text-white mb-2 text-lg font-chakra">TBIT Campus</p>
-                <p className="text-sm text-gray-300 font-chakra">Kolkata, West Bengal</p>
+                <p className="text-sm text-white font-chakra">Kolkata, West Bengal</p>
               </motion.div>
             </div>
           </motion.div>
