@@ -16,7 +16,7 @@ function Team(props) {
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>BITS2BYTES 2K25 Teams</title>
+        <title>BITS2BYTES 2025 Teams</title>
       </Head>
       <Header id="navbar" />
 
@@ -29,17 +29,23 @@ function Team(props) {
           <span className="text-[2.5rem] tracking-wider">CREW</span>
         </div>
 
-        <div className="text-[.8rem] md:text-[1rem] p-8 font-semibold font-chakra flex gap-4 md:gap-12 items-center justify-center text-white">
-          {tabs.map((tab, i) => (
-            <span
-              key={i}
-              className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out"
-              style={{ border: index === i ? "1.75px solid #9747ff" : "none" }}
-              onClick={() => setIndex(i)}
-            >
-              {tab.name}
-            </span>
-          ))}
+        {/* Fixed horizontal scrollable tab navigation */}
+        <div className="w-full overflow-x-auto px-4 py-8">
+          <div className="flex gap-2 md:gap-6 min-w-max justify-start md:justify-center">
+            {tabs.map((tab, i) => (
+              <button
+                key={i}
+                className="text-[0.8rem] md:text-[1rem] font-semibold font-chakra text-white rounded-full px-4 md:px-6 py-3 hover:bg-white/20 transition-all duration-500 ease-in-out whitespace-nowrap flex-shrink-0 cursor-pointer"
+                style={{
+                  border: index === i ? "1.75px solid #9747ff" : "1px solid transparent",
+                  background: index === i ? "rgba(151, 71, 255, 0.1)" : "transparent"
+                }}
+                onClick={() => setIndex(i)}
+              >
+                {tab.name}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="w-full h-fit pb-10 flex justify-center">
@@ -79,7 +85,7 @@ function Team(props) {
                         top: `${100 + (170 - (Object.keys(member).filter(key => ['linkedin', 'insta', 'github', 'facebook'].includes(key) && member[key]).length * 40)) / 5}px`
                       }}>
                         {member.linkedin && (
-                          <Link href={`${member.linkedin}`} target="_blank" className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
+                          <Link href={`${member.linkedin}`} className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
                             <FaLinkedinIn
                               size="1.1rem"
                               className="text-white/80 hover:text-main_primary transition-colors duration-300"
@@ -87,7 +93,7 @@ function Team(props) {
                           </Link>
                         )}
                         {member.insta && (
-                          <Link href={`${member.insta}`} target="_blank" className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
+                          <Link href={`${member.insta}`} className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
                             <FaInstagram
                               size="1.1rem"
                               className="text-white/80 hover:text-main_primary transition-colors duration-300"
@@ -95,7 +101,7 @@ function Team(props) {
                           </Link>
                         )}
                         {member.github && (
-                          <Link href={`${member.github}`} target="_blank" className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
+                          <Link href={`${member.github}`} className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
                             <FaGithub
                               size="1.1rem"
                               className="text-white/80 hover:text-main_primary transition-colors duration-300"
@@ -103,7 +109,7 @@ function Team(props) {
                           </Link>
                         )}
                         {member.facebook && (
-                          <Link href={`${member.facebook}`} target="_blank" className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
+                          <Link href={`${member.facebook}`} className="bg-white/10 hover:bg-main_primary/20 border border-white/20 hover:border-main_primary/40 p-2 rounded transition-all duration-300 transform hover:scale-110">
                             <FaFacebook
                               size="1.2rem"
                               className="text-white/80 hover:text-main_primary transition-colors duration-300"

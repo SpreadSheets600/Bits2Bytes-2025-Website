@@ -1,7 +1,7 @@
 {
   "tabs": [
     {
-      "name": "CONVENORS",
+      "name": "CONVENERS",
       "sections": [
         {
           "name": "Faculty Convenors",
@@ -36,7 +36,7 @@
               "id": "tf1",
               "name": "Hrishikesh Das",
               "post": "Technical Secretary",
-              "img": "/TeamImages/unknown.png",
+              "img": "/TeamImages/TS.jpg",
               "insta": "https://www.instagram.com/a_boy_name_hrishi/",
               "linkedin": "www.linkedin.com/in/dashrishikesh"
             },
@@ -531,7 +531,7 @@
               "id": "d5",
               "name": "Hrishikesh Das",
               "post": "Design Coordinator & Media",
-              "img": "/TeamImages/unknown.png",
+              "img": "/TeamImages/TS.jpg",
               "insta": "https://www.instagram.com/a_boy_name_hrishi/",
               "linkedin": "www.linkedin.com/in/dashrishikesh"
             },
@@ -597,7 +597,7 @@
               "id": "Dt1",
               "name": "Hrishikesh Das",
               "post": "Lead Developer",
-              "img": "/TeamImages/unknown.png",
+              "img": "/TeamImages/TS.jpg",
               "insta": "https://www.instagram.com/a_boy_name_hrishi/",
               "linkedin": "www.linkedin.com/in/dashrishikesh",
               "github": "https://github.com/hrishiD-codes"

@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
           <div>
             <div className="flex">
-              <Link href="#" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-youtubeColor hover:bg-white">
+              <Link href="https://youtube.com/@bengalinstituteoftechnolog7911" target="_blank" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-youtubeColor hover:bg-white">
                 <FaYoutube size="3rem" />
               </Link>
               <Link href="https://www.instagram.com/tbit_bits2bytes/" target="_blank" className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:text-white">

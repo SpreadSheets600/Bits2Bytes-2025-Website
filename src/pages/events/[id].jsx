@@ -8,8 +8,6 @@ import path from "path";
 import { gsap } from "gsap";
 
 function EventsDetails(props) {
-  //create a pop up for the event Registration showing the embeded form
-  const [popUp, setPopUp] = React.useState(false);
   const card = React.useRef(null);
   const title = React.useRef(null);
   const subtitle = React.useRef(null);
@@ -31,14 +29,6 @@ function EventsDetails(props) {
       { opacity: 1, scale: 1, duration: 1, delay: 0.7, ease: "back.out(1.7)" }
     );
   }, []);
-
-  React.useEffect(() => {
-    if (popUp) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [popUp]);
 
   return (
     <>
@@ -95,14 +85,23 @@ function EventsDetails(props) {
                   </div>
                 </div>
 
-                <button
-                  className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
-                  onClick={() => {
-                    props.reg == "Register Closed" ? null : setPopUp(true);
-                  }}
-                >
-                  {props.reg}
-                </button>
+                {props.reg === "Register Here" && props.reglink ? (
+                  <a
+                    href={props.reglink.trim()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out text-center block"
+                  >
+                    {props.reg}
+                  </a>
+                ) : (
+                  <button
+                    className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
+                    disabled
+                  >
+                    {props.reg}
+                  </button>
+                )}
               </div>
             </div>
 
@@ -132,24 +131,6 @@ function EventsDetails(props) {
         <Footer />
       </section>
 
-      {popUp && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-50 flex justify-center items-center animate-fadeIn ">
-          <div className="relative w-full h-full max-w-[90%] lg:max-w-[80%]  xl:max-w-[70%]   max-h-[90%] flex flex-col justify-center items-center">
-            <div className="absolute top-0 right-0 p-4">
-              <button className="bg-transparent text-black rounded-full w-12 h-12 flex text-xl justify-center items-center font-semibold hover:bg-main_primary/90 hover:text-white transition duration-300 ease-in-out "
-                onClick={() => setPopUp(false)}>
-                X
-              </button>
-            </div>
-            <iframe
-              width="100%"
-              height="100%"
-              className="rounded-md"
-              src={props.reglink}
-            ></iframe>
-          </div>
-        </div>
-      )}
     </>
   );
 }
@@ -190,7 +171,7 @@ export async function getStaticProps(context) {
       c1name: post.c1name,
       c2name: post.c2name,
       register: post.reg,
-      reglink: post.reglink,
+      reglink: post.reglink, // This should contain your Google Form URL
       reg: post.reg,
       rulehead: post.ruleheader,
       rule1: post.rules.rule1,

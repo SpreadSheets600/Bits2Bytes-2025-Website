@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import { gsap } from "gsap";
-// import Marque1 from "./Marque1";
+
 
 function Hero() {
   const title = useRef(null);
@@ -51,14 +51,26 @@ function Hero() {
       <div className="hero relative xl:hidden py-8 h-fit flex flex-col uppercase justify-center">
         <video
           ref={render}
-          src="/about.mp4"
+          src="/b2b.mp4"
           loop
           autoPlay
           muted
           className="absolute top-0 left-0 w-full h-full object-cover bg-slate-300 opacity-50"
         ></video>
 
-        <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">
+        {/* Logo for small and medium screens */}
+        <div className="flex justify-center items-center mb-6 mt-8">
+          <Image
+            src="/b2b.svg"
+            alt="BITS2BYTES "
+            width={0}
+            height={0}
+            className="w-36 h-36 sm:w-40 sm:h-40 md:w-48 pt-6 md:h-48  object-contain drop-shadow-xl"
+            draggable="false"
+          />
+        </div>
+
+        <div className="text-white flex flex-col pt-[2rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">
           <h1 ref={title} className="font-chakra sm:text-2xl opacity-0">
             TECHNO BENGAL INSTITUTE OF TECHNOLOGY
           </h1>

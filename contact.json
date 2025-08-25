@@ -5,28 +5,28 @@
       "title": "Technical Secretary",
       "sub": "",
       "name": "Hrishikesh Das",
-      "ph": "1234567890"
+      "ph": ""
     },
     {
       "id": "2",
-      "title": "Student Coordinator",
+      "title": "",
       "sub": "",
-      "name": "Jhone Doe",
-      "ph": "75"
+      "name": "",
+      "ph": ""
     },
     {
       "id": "3",
-      "title": "Finance Coordinator",
+      "title": "",
       "sub": "",
-      "name": "Alice",
-      "ph": "8"
+      "name": "",
+      "ph": ""
     },
     {
       "id": "4",
-      "title": "Sponsorship Coordinator",
+      "title": "",
       "sub": "",
-      "name": "Aditya",
-      "ph": "991"
+      "name": "",
+      "ph": ""
     }
   ]
 }
