@@ -45,17 +45,23 @@ export default function Events({ posts, names }) {
           <span className="text-[2.5rem] tracking-wider">EVENTS</span>
         </div>
 
-        <div className="text-[1rem] p-8 font-semibold font-chakra flex flex-wrap gap-4 md:gap-12 justify-center text-white">
-          {names.map((name, i) => (
-            <span
-              key={i}
-              className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out"
-              style={{ border: index === i ? "1.75px solid #9747ff" : "none" }}
-              onClick={() => setIndex(i)}
-            >
-              {name}
-            </span>
-          ))}
+        {/* Fixed horizontal scrollable navigation */}
+        <div className="w-full overflow-x-auto px-4 py-8">
+          <div className="flex gap-4 md:gap-6 min-w-max justify-start md:justify-center">
+            {names.map((name, i) => (
+              <button
+                key={i}
+                className="text-[1rem] font-semibold font-chakra text-white rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-500 ease-in-out whitespace-nowrap flex-shrink-0 cursor-pointer"
+                style={{
+                  border: index === i ? "1.75px solid #9747ff" : "1px solid transparent",
+                  background: index === i ? "rgba(151, 71, 255, 0.1)" : "transparent"
+                }}
+                onClick={() => setIndex(i)}
+              >
+                {name}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 p-6">

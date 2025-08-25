@@ -66,7 +66,7 @@ export default function About() {
           organizers who make each year better than the last.
         </span>
       </div>
-      
+
       <div className="absolute font-clash font-bold text-white">
         <span className="flex gap-4 sm:gap-6 text-[2rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] xl:text-[5.5rem] text-turquise">
           About <span className="text-white"><Navlink name={"Techno BIT"} link={"/#"} /></span>
@@ -85,10 +85,10 @@ export default function About() {
           still offering the conveniences of city life.
         </p>
 
-        <video src="/" autoPlay loop muted
+        <video src="/b2b.mp4" autoPlay loop muted
           className="w-full md:w-full lg:w-full xl:w-[28rem] h-[18rem] md:h-[20rem] xl:h-[18rem] object-cover rounded-2xl border-2 border-gray/80"></video>
       </div>
-        
+
     </div>
   );
 }
