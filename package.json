@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "optimize-images": "imagemin public/**/*.{jpg,jpeg,png} --out-dir=public --plugin=mozjpeg --plugin=pngquant --plugin=gifsicle --plugin=svgo"
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.0",
@@ -37,6 +38,11 @@
     "eslint-config-next": "13.2.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.28.0",
+    "imagemin-cli": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-svgo": "^10.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.7"

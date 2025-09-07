@@ -79,6 +79,7 @@ export default function Events({ posts, names }) {
                     height={500}
                     alt="Event's Image"
                     className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
+                    loading="lazy"
                   />
                 </Link>
               </div>

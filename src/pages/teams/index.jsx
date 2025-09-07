@@ -76,6 +76,7 @@ function Team(props) {
                             width={300}
                             height={300}
                             className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
+                            loading="lazy"
                           />
                         </div>
                       </div>

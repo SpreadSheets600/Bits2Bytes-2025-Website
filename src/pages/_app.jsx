@@ -5,7 +5,6 @@ import { IBM_Plex_Mono } from "next/font/google";
 import { Bebas_Neue } from "next/font/google";
 import LocalFont from "next/font/local";
 import dynamic from "next/dynamic";
-import { useRouter } from "next/router";
 import "../styles/global.css";
 import "../styles/styles.css";
 import "slick-carousel/slick/slick.css";
@@ -42,34 +41,24 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 });
 
 export default function MyApp({ Component, pageProps }) {
-  const router = useRouter();
   // const [loading, setLoading] = React.useState(false);
   const [initialLoading, setInitialLoading] = React.useState(true);
 
   React.useEffect(() => {
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       setInitialLoading(false);
     }, 2700);
 
-    const handleStart = () => {
-      // setLoading(true);
-      setTimeout(() => {
-        // setLoading(false);
-        console.log("setLoading False");
-      }, 2700);
+    const handlePageHide = () => {
+      clearTimeout(timeoutId);
     };
-    router.events.on(
-      "routeChangeStart",
-      (url) => url != router.asPath && handleStart()
-    );
+    window.addEventListener('pagehide', handlePageHide);
 
     return () => {
-      router.events.off(
-        "routeChangeStart",
-        (url) => url != router.asPath && handleStart()
-      );
+      clearTimeout(timeoutId);
+      window.removeEventListener('pagehide', handlePageHide);
     };
-  }, [router.asPath, router.events]);
+  }, []);
 
   if (initialLoading) {
     return <InitialLoader />;
@@ -79,6 +68,8 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="shortcut icon" href="/b2b.svg" type="image/svg +xml " />
+        <link rel="preload" href="/b2b.svg" as="image" />
+        <link rel="preload" href="/retro.jpeg" as="image" />
       </Head>
       <motion.div
         initial={{ opacity: 0 }}

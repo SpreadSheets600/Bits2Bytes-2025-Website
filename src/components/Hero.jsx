@@ -19,6 +19,15 @@ function Hero() {
         this.currentTime = 0.5;
       }
     });
+
+    // Pause video on pagehide to allow bfcache
+    const handlePageHide = () => {
+      if (render.current) {
+        render.current.pause();
+      }
+    };
+    window.addEventListener('pagehide', handlePageHide);
+
     gsap.fromTo(
       title.current,
       { opacity: 0, y: 100 },
@@ -44,6 +53,10 @@ function Hero() {
       { opacity: 0, y: 100 },
       { opacity: 1, y: 0, duration: 1.5, delay: 3 }
     );
+
+    return () => {
+      window.removeEventListener('pagehide', handlePageHide);
+    };
   }, []);
 
   return (
@@ -56,6 +69,7 @@ function Hero() {
           autoPlay
           muted
           className="absolute top-0 left-0 w-full h-full object-cover bg-slate-300 opacity-50"
+          preload="metadata"
         ></video>
 
         {/* Logo for small and medium screens */}
@@ -67,6 +81,7 @@ function Hero() {
             height={0}
             className="w-36 h-36 sm:w-40 sm:h-40 md:w-48 pt-6 md:h-48  object-contain drop-shadow-xl"
             draggable="false"
+            loading="lazy"
           />
         </div>
 
