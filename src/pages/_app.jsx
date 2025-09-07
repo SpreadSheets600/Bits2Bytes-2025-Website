@@ -70,6 +70,8 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/b2b.svg" type="image/svg +xml " />
         <link rel="preload" href="/b2b.svg" as="image" />
         <link rel="preload" href="/retro.jpeg" as="image" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="/manifest.json" />
       </Head>
       <motion.div
         initial={{ opacity: 0 }}
@@ -107,6 +109,22 @@ export default function MyApp({ Component, pageProps }) {
           />
         </main>
       </motion.div>
+      {/* Service Worker registration (prod only) */}
+      {typeof window !== 'undefined' && process.env.NODE_ENV === 'production' && (
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function () {
+                  navigator.serviceWorker.register('/sw.js').catch(function (err) {
+                    console.log('SW registration failed:', err);
+                  });
+                });
+              }
+            `,
+          }}
+        />
+      )}
     </>
   );
 }
