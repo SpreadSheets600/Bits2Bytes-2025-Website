@@ -66,7 +66,11 @@ export default function MyApp({ Component, pageProps }) {
 				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
-				<main className={`${font_chakra.variable} ${font_clash_display.variable} ${font_ibm.variable} ${font_bebas.variable}`}>
+				<main
+					className={`${font_chakra.variable} ${font_clash_display.variable} ${font_ibm.variable} ${font_bebas.variable}`}
+					aria-hidden={initialLoading}
+					style={{ visibility: initialLoading ? "hidden" : "visible", pointerEvents: initialLoading ? "none" : "auto" }}
+				>
 					<Component {...pageProps} />
 					<Analytics />
 
