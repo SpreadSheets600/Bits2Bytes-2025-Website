@@ -13,9 +13,18 @@ export default function EventSlider() {
 	const [currentIndex, setCurrentIndex] = useState(0); // Start with first event
 
 	useEffect(() => {
-		const allEvents = eventsData.posts?.flat() || [];
-		setEvents(allEvents);
-		setLoading(false);
+		try {
+			const allEvents = eventsData.posts?.flat() || [];
+			if (!allEvents.length) {
+				setError("No events available");
+			} else {
+				setEvents(allEvents);
+			}
+		} catch (e) {
+			setError("Failed to load events");
+		} finally {
+			setLoading(false);
+		}
 	}, []);
 
 	if (loading) {
@@ -67,16 +76,16 @@ export default function EventSlider() {
 
 		if (hoveredIndex !== null) {
 			const distance = index - hoveredIndex;
-			let transform = "";
-
 			if (distance < 0) {
+				// left side card transforms (handled below via mobile/desktop transform maps)
 				const leftOffset = Math.abs(distance) * 80 + 60;
-				transform = `z-[${Math.max(10, 30 - Math.abs(distance) * 5)}] -translate-x-[${leftOffset}px] -rotate-[${Math.abs(distance) * 8 + 12}deg] scale-[${Math.max(0.6, 0.9 - Math.abs(distance) * 0.1)}] opacity-[${Math.max(0.4, 0.8 - Math.abs(distance) * 0.15)}]`;
+				// keep the calculation here for readability / future use
+				void leftOffset;
 			} else if (distance > 0) {
 				const rightOffset = distance * 80 + 60;
-				transform = `z-[${Math.max(10, 30 - distance * 5)}] translate-x-[${rightOffset}px] rotate-[${distance * 8 + 12}deg] scale-[${Math.max(0.6, 0.9 - distance * 0.1)}] opacity-[${Math.max(0.4, 0.8 - distance * 0.15)}]`;
+				void rightOffset;
 			} else {
-				transform = "z-50 translate-x-0 rotate-0 scale-110 opacity-100";
+				// center card
 			}
 
 			const mobileTransforms = {
