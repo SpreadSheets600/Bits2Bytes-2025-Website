@@ -43,26 +43,13 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 export default function MyApp({ Component, pageProps }) {
   // const [loading, setLoading] = React.useState(false);
   const [initialLoading, setInitialLoading] = React.useState(true);
-
+  // Safety fallback: ensure loader cannot hang forever (7s max)
   React.useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setInitialLoading(false);
-    }, 2700);
-
-    const handlePageHide = () => {
-      clearTimeout(timeoutId);
-    };
-    window.addEventListener('pagehide', handlePageHide);
-
-    return () => {
-      clearTimeout(timeoutId);
-      window.removeEventListener('pagehide', handlePageHide);
-    };
+    const safety = setTimeout(() => setInitialLoading(false), 7000);
+    return () => clearTimeout(safety);
   }, []);
 
-  if (initialLoading) {
-    return <InitialLoader />;
-  }
+  if (initialLoading) return <InitialLoader onFinish={() => setInitialLoading(false)} />;
 
   return (
     <>

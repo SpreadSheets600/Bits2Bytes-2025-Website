@@ -63,7 +63,7 @@ export default function Header() {
             loading="lazy"
           />
           <Image
-            src="/tbit.svg"
+            src="/TBIT.svg"
             width={50}
             height={50}
             alt="TBIT_logo"
