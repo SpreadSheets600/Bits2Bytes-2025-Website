@@ -8,40 +8,39 @@ export default function Preloader({ onFinish }) {
 	const letters = ["BITS", "2", "BYTES", "2", "K", "2", "5"];
 	const animationClasses = ["fromRightOutBottom", "fromTopOutRight", "fromLeftOutTop", "fromBottomOutLeft", "fromRightOutTop", "fromBottomOutRight", "fromLeftOutBottom", "fromTopOutRight", "fromRightOutTop", "fromBottomOutLeft", "fromLeftOutTop"];
 
-	const assetsToPreload = ["/b2b.svg", "/retro.webp"];
-
 	useEffect(() => {
+		const assetsToPreload = ["/b2b.svg", "/retro.webp"];
 		let cancelled = false;
 
 		async function preload() {
-			if (typeof window === "undefined") return setAssetsLoaded(true);
+			if (typeof window === "undefined") {
+				setAssetsLoaded(true);
+				return;
+			}
 
 			const supportsCache = !!window.caches;
 
 			try {
-				try {
-					const ev = await fetch("/events.json")
-						.then((r) => (r.ok ? r.json() : null))
-						.catch(() => null);
-					if (ev && ev.posts) {
-						const found = new Set();
-						ev.posts.forEach((group) => {
-							if (Array.isArray(group)) {
-								group.forEach((item) => {
-									if (item && item.img && typeof item.img === "string" && item.img.startsWith("/Eventposter/") && item.img.endsWith(".webp")) {
-										found.add(item.img);
-									}
-								});
-							}
-						});
-						if (found.size) {
-							// mutate local array for subsequent caching loop
-							found.forEach((p) => {
-								if (!assetsToPreload.includes(p)) assetsToPreload.push(p);
+				const ev = await fetch("/events.json")
+					.then((r) => (r.ok ? r.json() : null))
+					.catch(() => null);
+				if (ev && ev.posts) {
+					const found = new Set();
+					ev.posts.forEach((group) => {
+						if (Array.isArray(group)) {
+							group.forEach((item) => {
+								if (item && item.img && typeof item.img === "string" && item.img.startsWith("/Eventposter/") && item.img.endsWith(".webp")) {
+									found.add(item.img);
+								}
 							});
 						}
+					});
+					if (found.size) {
+						found.forEach((p) => {
+							if (!assetsToPreload.includes(p)) assetsToPreload.push(p);
+						});
 					}
-				} catch (e) {}
+				}
 
 				if (supportsCache) {
 					const cache = await caches.open("assets-v1.0.0");
@@ -55,14 +54,19 @@ export default function Preloader({ onFinish }) {
 								if (resp) {
 									try {
 										await cache.put(url, resp.clone());
-									} catch (e) {}
+									} catch (e) {
+										console.debug("InitialLoader: cache.put failed", e);
+									}
 								}
 							} catch (e) {
+								console.debug("InitialLoader: preload fetch failed", e);
 							} finally {
 								try {
 									const img = new Image();
 									img.src = url;
-								} catch (e) {}
+								} catch (e) {
+									console.debug("InitialLoader: image constructor failed", e);
+								}
 							}
 						})
 					);
@@ -71,10 +75,14 @@ export default function Preloader({ onFinish }) {
 						try {
 							const img = new Image();
 							img.src = url;
-						} catch (e) {}
+						} catch (e) {
+							console.debug("InitialLoader: image preload failed", e);
+						}
 					});
 				}
-			} catch (e) {}
+			} catch (e) {
+				console.debug("InitialLoader: preload failed", e);
+			}
 
 			if (!cancelled) setAssetsLoaded(true);
 		}
