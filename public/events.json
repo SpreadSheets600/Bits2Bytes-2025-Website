@@ -14,7 +14,7 @@
       {
         "id": "envision",
         "title": "Envision: Creativity Meets Implementation",
-        "img": "/Eventposter/Envision.png",
+        "img": "/Eventposter/Envision.webp",
         "content": "",
         "description": "Envision is the blend of creativity and implementation — an event to explore real-world problems, build impactful solutions, and present them to a live audience. Participants will progress through problem selection, ideation, prototyping, and final deployment, developing solutions with real-time impact. The competition focuses on innovation, feasibility, and technical implementation.",
         "c1name": "Shib Shankar Das",
@@ -41,7 +41,7 @@
       {
         "id": "electronovation",
         "title": "Electronovation: Hardware Innovation Challenge",
-        "img": "/Eventposter/electro.png",
+        "img": "/Eventposter/electro.webp",
         "content": "",
         "description": "ELECTRONOVATION 2K25 is a hardware innovation competition where student teams build and showcase real-world tech solutions integrating hardware and software (e.g., Arduino, IoT, robotics). Teams will progress through multiple screening stages, demonstrating creativity, functionality, and real-world impact in their prototypes.",
         "c1name": "Debdeep Mahapatra",
@@ -68,7 +68,7 @@
       {
         "id": "cosmic_contour",
         "title": "Cosmic Contour: Basic Science Project Challenge",
-        "img": "/Eventposter/cosmic.png",
+        "img": "/Eventposter/cosmic.webp",
         "content": "",
         "description": "COSMIC CONTOUR is a Basic Science project competition designed to test analytical and scientific problem-solving skills. Participants must create innovative hardware projects based purely on basic science concepts — no microcontrollers allowed. The event challenges creativity, originality, and practical application of science, promising an exciting and knowledge-driven experience.",
         "c1name": "Soumorit Pramanik",
@@ -95,7 +95,7 @@
       {
         "id": "genfusion",
         "title": "GenFusion: Innovate, Integrate, Impact",
-        "img": "/Eventposter/Genfusion.png",
+        "img": "/Eventposter/Genfusion.webp",
         "content": "",
         "description": "GenFusion is where innovation meets intelligence — a platform to explore real-world domains, build impactful solutions, and fuse ambition with algorithms. Participants will progress through ideation, prototyping, and final deployment, developing solutions that create real-time impact. The event features multiple screening rounds evaluating creativity, technical skills, and practicality.",
         "c1name": "Soham Kar",
@@ -122,7 +122,7 @@
       {
         "id": "return_zero",
         "title": "Return Zero: Ready. Set. Innovate.",
-        "img": "/Eventposter/return.png",
+        "img": "/Eventposter/return.webp",
         "content": "",
         "description": "RETURN ZERO is a 5-hour offline team event where creativity meets execution. It's not your usual hackathon — no chaos, no overnight marathons. Just brainstorm, build, and showcase your idea-driven prototype in a chill, energetic environment. Whether you code, design, or ideate — there’s a role for you.",
         "c1name": "Amit Mondal",
@@ -151,7 +151,7 @@
       {
         "id": "zeroday_ctf",
         "title": "ZeroDayCTF",
-        "img": "/Eventposter/zeroday.png",
+        "img": "/Eventposter/zeroday.webp",
         "content": "",
         "description": "ZeroDayCTF is a fast-paced, online hacking competition where you solve puzzles, break into systems, and find hidden 'flags' to earn points — like a digital treasure hunt for hackers. Challenges span web hacking, reverse engineering, cryptography, forensics, binary exploitation, and OSINT. Whether you're a beginner or a pro, ZeroDayCTF offers quick wins, brain-teasing challenges, and real-world hacking experience. Compete solo or in teams, learn hands-on, and climb the leaderboard as curiosity meets competition.",
         "c1name": "Vivek Kushal Chakraborty",
@@ -178,7 +178,7 @@
       {
         "id": "Predicto_Code",
         "title": "Predicto Code",
-        "img": "/Eventposter/predicto.png",
+        "img": "/Eventposter/predicto.webp",
         "content": "Are you ready to test your Coding Skills with hardened Battle Coding Competition ? Test your DSA skills, race against the clock, and climb to the top of the leaderboard!",
         "description": "Predict-O-Code is a 1 hour 30 minute solo coding contest hosted on HackerRank, featuring 5 data structures and algorithms (DSA) problems of increasing difficulty—from easy to hard.",
         "c1name": "Abhinandan Ghosh",
@@ -205,7 +205,7 @@
       {
         "id": "code_ardor",
         "title": "Code Ardor",
-        "img": "/Eventposter/codeardor.png",
+        "img": "/Eventposter/codeardor.webp",
         "content": "",
         "description": "🚀 Code Ardor is the ultimate MCQ-based coding challenge to test your programming logic, syntax, and problem-solving skills. Tackle 20 multiple-choice questions covering C, C++, Java, JavaScript, and Python. Compete in a high-speed coding sprint, race through the leaderboard, and prove your coding prowess. Whether you're a beginner or a seasoned coder, Code Ardor promises a thrilling tech experience where speed meets accuracy. 🧠 Think Fast. Code Smart. Compete Boldly.",
         "c1name": "Krishnendu Maity",
@@ -234,7 +234,7 @@
       {
         "id": "Robo_soccer",
         "title": "Robo Soccer",
-        "img": "/Eventposter/Robosoccer.png",
+        "img": "/Eventposter/Robosoccer.webp",
         "content": "Embark to the ultimate Journey of Soccer adventure",
         "description": "Robo Soccer is an electrifying event where two 🤖 bots (car-like) compete in a thrilling ⚽ football match. Each bot is remotely controlled by a human 🎮, demanding sharp focus and swift moves. Players guide their bots to dribble, defend, and score goals just like real soccer stars. The field turns into a battleground of speed, precision, and smart strategies. Get ready for non-stop action, roaring goals, and robotic rivalry 🤖⚡⚽!",
         "c1name": "Roopam Satapathi",
@@ -261,7 +261,7 @@
       {
         "id": "Robo_rally",
         "title": "Robo Rally",
-        "img": "/Eventposter/Roborally.png",
+        "img": "/Eventposter/Roborally.webp",
         "content": "Come and participate in the Robo Rally the ultimate race between machines and minds",
         "description": "Welcome to Robo Rally 🤖 — the ultimate race begins where machines race and minds compete. Dodge obstacles, beat your rivals, and own the track.   Only sharp reflexes and fast moves keep you ahead. Get ready to grab the winning tag! 🏁",
         "c1name": "Ritisha Ghosh",
@@ -288,7 +288,7 @@
       {
         "id": "quadX",
         "title": "Quad X",
-        "img": "/Eventposter/QuadX.png",
+        "img": "/Eventposter/QuadX.webp",
         "content": "Robo Race Competition",
         "description": "Looking for an exciting and futuristic way to showcase your skills and compete against other racing enthusiasts? 🚗Look no further than the Robo Race Game Competition! 🎮",
         "c1name": "Pavi Prasad",
@@ -317,7 +317,7 @@
       {
         "id": "quizscript",
         "title": "QuizScript",
-        "img": "/Eventposter/Quiz.png",
+        "img": "/Eventposter/Quiz.webp",
         "content": "Battle of Brains & Speed",
         "description": "Welcome to QuizScript, the exclusive quiz contest of the Tech Fest at Bengal Institute of Technology, where brilliance meets pressure and quick thinking leads to triumph! Step into a world of mind-boggling questions, competitive spirit, and electrifying moments as you and your teammate tackle twists and turns across every round. QuizScript isn’t just a game — it’s a battle of intellect, composure, and speed.",
         "c1name": "Ayushman Dutta Gupta",
@@ -344,7 +344,7 @@
       {
         "id": "math_pirates",
         "title": "Math Pirates  ",
-        "img": "/Eventposter/math.png",
+        "img": "/Eventposter/math.webp",
         "content": "",
         "description": "🏴‍☠ Math Pirates is a fun and exciting event where students solve different types of math problems in a creative way. Just like pirates hunting for treasure, participants will go on a journey full of brain-teasing puzzles, quick calculations, and logic-based questions. It’s not just about speed — it’s about smart thinking, teamwork, and enjoying the thrill of problem-solving. Whether you’re great at math or simply love challenges, Math Pirates is a fun way to learn and boost your confidence in mathematics.",
         "c1name": "Anshuman Ghosh",
@@ -371,7 +371,7 @@
       {
         "id": "electrobox",
         "title": "Electrobox: The Ultimate Circuit Quiz",
-        "img": "/Eventposter/Electrobox.png",
+        "img": "/Eventposter/Electrobox.webp",
         "content": "",
         "description": "⚡💫 ELECTROBOX is a circuit quiz event designed to test your knowledge in the field of circuits. It is an opportunity to put your analytical and problem-solving skills to the test. The event promises to be an exciting one, with challenging questions that will keep you on the edge of your seat.",
         "c1name": "Lahari Das Chakladar",
@@ -398,7 +398,7 @@
       {
         "id": "debate_competition",
         "title": "Debate Competition",
-        "img": "/Eventposter/Debate.png",
+        "img": "/Eventposter/Debate.webp",
         "content": " Voice, Argue, Persuade",
         "description": "The Debate Competition is a platform to voice opinions, challenge ideas, and enhance the power of persuasion. It encourages students to engage in intellectual discourse on relevant and thought-provoking topics, promoting respectful argumentation, confidence, and logical reasoning.",
         "c1name": "Arshad Khan",
@@ -427,7 +427,7 @@
       {
         "id": "len_s_urge",
         "title": "LEN-S-URGE",
-        "img": "/Eventposter/lense.png",
+        "img": "/Eventposter/lense.webp",
         "content": "Photography Competition",
         "description": "LEN-S-URGE is the official photography competition of BITS-2-BYTES 2K25, designed to ignite the creative spirit of photography enthusiasts. The name blends 'Lens' and 'Surge', symbolizing a powerful rise of visual storytelling through the camera lens. Whether you're a casual shooter or a passionate visual artist, LEN-S-URGE is a platform to express emotions, perspectives, and untold stories. With carefully curated themes and a space for originality, it's more than a contest — it's a celebration of how you see the world.",
         "c1name": "Jeet Santra",
@@ -454,7 +454,7 @@
       {
         "id": "scientific_poster_presentation",
         "title": "Scientific Poster Presentation",
-        "img": "/Eventposter/Science.png",
+        "img": "/Eventposter/Science.webp",
         "content": "Showcase, Inspire, Innovate",
         "description": "The Scientific Poster Presentation is an academic event encouraging students and researchers to showcase innovative scientific ideas, experimental findings, or literature reviews in a visually engaging format. Participants will summarize their research or concepts in science, engineering, or technology, promoting scientific thinking, improving communication skills, and sparking creativity by presenting complex ideas in a concise and visually attractive way.",
         "c1name": "Suman Panja",
@@ -483,7 +483,7 @@
       {
         "id": "satyanweshi",
         "title": "Satyanweshi: Campus Of Cipers",
-        "img": "/Eventposter/satyanweshi.png",
+        "img": "/Eventposter/satyanweshi.webp",
         "content": "",
         "description": "Satyanweshi - The Ultimate Detective Hunt is a thrilling mystery-solving event where logic, instinct, and observation take the spotlight. Participants will face mind-bending riddles, physical challenges, and unexpected twists as they journey through a carefully crafted storyline. Set against the backdrop of intrigue and secrets, this event tests not just intelligence — but presence of mind under pressure.",
         "c1name": "Subhro Mohanta",
@@ -512,7 +512,7 @@
       {
         "id": "bgmi",
         "title": "BGMI",
-        "img": "/Eventposter/bgmi.png",
+        "img": "/Eventposter/bgmi.webp",
         "content": "",
         "description": "BGMI - Battlegrounds Mobile India is a thrilling online multiplayer battle royale game that tests your strategic thinking, teamwork, and reflexes. Players will engage in intense combat scenarios, utilizing a variety of weapons and tactics to outsmart their opponents. Set in a dynamic and immersive environment, this event challenges not only your gaming skills but also your ability to adapt and thrive under pressure.",
         "c1name": "Ayush Sharma",
@@ -539,7 +539,7 @@
       {
         "id": "freefire",
         "title": "Free Fire",
-        "img": "/Eventposter/free.png",
+        "img": "/Eventposter/free.webp",
         "content": "",
         "description": "Free Fire is a thrilling online multiplayer battle royale game that tests your strategic thinking, teamwork, and reflexes. Players will engage in intense combat scenarios, utilizing a variety of weapons and tactics to outsmart their opponents. Set in a dynamic and immersive environment, this event challenges not only your gaming skills but also your ability to adapt and thrive under pressure.",
         "c1name": "Ayush Sharma",
@@ -566,7 +566,7 @@
       {
         "id": "valorant",
         "title": "VALORANT",
-        "img": "/Eventposter/valo.png",
+        "img": "/Eventposter/valo.webp",
         "content": "",
         "description": "VALORANT is a thrilling online multiplayer first-person shooter game that tests your strategic thinking, teamwork, and reflexes. Players will engage in intense combat scenarios, utilizing a variety of weapons and tactics to outsmart their opponents. Set in a dynamic and immersive environment, this event challenges not only your gaming skills but also your ability to adapt and thrive under pressure.",
         "c1name": "Ayush Sharma",
@@ -593,7 +593,7 @@
       {
         "id": "fifa",
         "title": "FIFA",
-        "img": "/Eventposter/fifa.png",
+        "img": "/Eventposter/fifa.webp",
         "content": "",
         "description": "FIFA is a thrilling online multiplayer football simulation game that tests your strategic thinking, teamwork, and reflexes. Players will engage in intense matches, utilizing a variety of tactics and skills to outsmart their opponents. Set in a dynamic and immersive environment, this event challenges not only your gaming skills but also your ability to adapt and thrive under pressure.",
         "c1name": "Ayush Sharma",
@@ -622,7 +622,7 @@
       {
         "id": "webdev",
         "title": "Web Development",
-        "img": "/Eventposter/WebDev.png",
+        "img": "/Eventposter/WebDev.webp",
         "content": "",
         "description": "Web Development is a crucial skill in today's digital age, encompassing the creation and maintenance of websites. This event will cover various aspects of web development, including front-end and back-end technologies, design principles, and best practices.",
         "c1name": "Shib Shankar Das",
@@ -649,7 +649,7 @@
       {
         "id": "robo",
         "title": "Robo Rally workshop",
-        "img": "/Eventposter/RoboWorkshop.png",
+        "img": "/Eventposter/RoboWorkshop.webp",
         "content": "",
         "description": "Robo Rally is an exciting robotics competition that challenges participants to design, build, and program their own robots to navigate a complex course. This event promotes creativity, problem-solving, and teamwork as participants work together to overcome obstacles and complete tasks.",
         "c1name": "Ritisha Ghosh",
@@ -676,7 +676,7 @@
       {
         "id": "Roborally",
         "title": "Robo Rally workshop",
-        "img": "/Eventposter/RallyWorkshop.png",
+        "img": "/Eventposter/RallyWorkshop.webp",
         "content": "",
         "description": "Robo Rally is an exciting robotics competition that challenges participants to design, build, and program their own robots to navigate a complex course. This event promotes creativity, problem-solving, and teamwork as participants work together to overcome obstacles and complete tasks.",
         "c1name": "Shib Shankar Das",

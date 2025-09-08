@@ -12,7 +12,7 @@ const ASSET_CACHE = 'assets-' + VERSION;
 const DATA_CACHE = 'data-' + VERSION;
 
 const ASSET_EXTS = [
-  '.js','.css','.png','.jpg','.jpeg','.gif','.svg','.webp','.avif','.ico','.mp4','.pdf','.ttf','.otf','.woff','.woff2'
+  '.js','.css','.webp','.webp','.webp','.gif','.svg','.webp','.avif','.ico','.mp4','.pdf','.ttf','.otf','.woff','.woff2'
 ];
 
 self.addEventListener('install', (event) => {
@@ -24,7 +24,7 @@ self.addEventListener('install', (event) => {
       return cache.addAll([
         '/',
         '/b2b.svg',
-        '/retro.jpeg'
+        '/retro.webp'
       ].filter(Boolean)).catch(() => undefined);
     })
   );

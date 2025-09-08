@@ -56,7 +56,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="shortcut icon" href="/b2b.svg" type="image/svg +xml " />
         <link rel="preload" href="/b2b.svg" as="image" />
-        <link rel="preload" href="/retro.jpeg" as="image" />
+        <link rel="preload" href="/retro.webp" as="image" />
   <meta name="theme-color" content="#000000" />
   <link rel="manifest" href="/manifest.json" />
       </Head>
