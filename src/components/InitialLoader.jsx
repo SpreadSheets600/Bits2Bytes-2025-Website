@@ -2,9 +2,92 @@ import { useState, useEffect } from "react";
 
 export default function Preloader({ onFinish }) {
 	const [currentLetterIndex, setCurrentLetterIndex] = useState(0);
+	const [assetsLoaded, setAssetsLoaded] = useState(false);
+	const [animationDone, setAnimationDone] = useState(false);
 
 	const letters = ["BITS", "2", "BYTES", "2", "K", "2", "5"];
 	const animationClasses = ["fromRightOutBottom", "fromTopOutRight", "fromLeftOutTop", "fromBottomOutLeft", "fromRightOutTop", "fromBottomOutRight", "fromLeftOutBottom", "fromTopOutRight", "fromRightOutTop", "fromBottomOutLeft", "fromLeftOutTop"];
+
+	const assetsToPreload = ["/b2b.svg", "/retro.webp"];
+
+	useEffect(() => {
+		let cancelled = false;
+
+		async function preload() {
+			if (typeof window === "undefined") return setAssetsLoaded(true);
+
+			const supportsCache = !!window.caches;
+
+			try {
+				try {
+					const ev = await fetch("/events.json")
+						.then((r) => (r.ok ? r.json() : null))
+						.catch(() => null);
+					if (ev && ev.posts) {
+						const found = new Set();
+						ev.posts.forEach((group) => {
+							if (Array.isArray(group)) {
+								group.forEach((item) => {
+									if (item && item.img && typeof item.img === "string" && item.img.startsWith("/Eventposter/") && item.img.endsWith(".webp")) {
+										found.add(item.img);
+									}
+								});
+							}
+						});
+						if (found.size) {
+							// mutate local array for subsequent caching loop
+							found.forEach((p) => {
+								if (!assetsToPreload.includes(p)) assetsToPreload.push(p);
+							});
+						}
+					}
+				} catch (e) {}
+
+				if (supportsCache) {
+					const cache = await caches.open("assets-v1.0.0");
+					await Promise.all(
+						assetsToPreload.map(async (url) => {
+							if (cancelled) return;
+							try {
+								const matched = await cache.match(url);
+								if (matched) return;
+								const resp = await fetch(url).catch(() => null);
+								if (resp) {
+									try {
+										await cache.put(url, resp.clone());
+									} catch (e) {}
+								}
+							} catch (e) {
+							} finally {
+								try {
+									const img = new Image();
+									img.src = url;
+								} catch (e) {}
+							}
+						})
+					);
+				} else {
+					assetsToPreload.forEach((url) => {
+						try {
+							const img = new Image();
+							img.src = url;
+						} catch (e) {}
+					});
+				}
+			} catch (e) {}
+
+			if (!cancelled) setAssetsLoaded(true);
+		}
+
+		// shorter safety so loader can't block for too long
+		const safety = setTimeout(() => setAssetsLoaded(true), 3000);
+
+		preload();
+		return () => {
+			cancelled = true;
+			clearTimeout(safety);
+		};
+	}, []);
 
 	useEffect(() => {
 		const letterInterval = setInterval(() => {
@@ -15,7 +98,7 @@ export default function Preloader({ onFinish }) {
 					clearInterval(letterInterval);
 					setTimeout(() => {
 						setTimeout(() => {
-							onFinish(); // Notify App.js
+							setAnimationDone(true);
 						}, 1000);
 					}, 600);
 					return prev;
@@ -24,7 +107,13 @@ export default function Preloader({ onFinish }) {
 		}, 500);
 
 		return () => clearInterval(letterInterval);
-	}, [onFinish, letters.length]);
+	}, [letters.length]);
+
+	useEffect(() => {
+		if (animationDone && assetsLoaded) {
+			onFinish();
+		}
+	}, [animationDone, assetsLoaded, onFinish]);
 
 	return (
 		<div className="loader__wrapper relative w-full h-screen overflow-hidden">
