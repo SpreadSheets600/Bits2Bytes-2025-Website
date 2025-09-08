@@ -500,7 +500,7 @@
               "name": "Souvik Dutta",
               "post": "Design Lead Coordinator",
               "img": "/TeamImages/souvik.webp",
-              "insta": "https://www.instagram.com/frixzee.sd/profilecard/?igsh=aWZkajhzNjIzdDNj",
+              "insta": "https://www.instagram.com/frixzee.sd/",
               "linkedin": ""
             },
             {
@@ -513,50 +513,50 @@
             },
             {
               "id": "d3",
-              "name": "Vivek Kushal Chakraborty",
-              "post": "Design Coordinator",
-              "img": "/TeamImages/vivek.webp",
-              "insta": "",
-              "linkedin": "https://www.linkedin.com/in/vivekkushalch/"
+              "name": "Srijan Biswas",
+              "post": "Photo & Video Grapher",
+              "img": "/TeamImages/srijan.webp",
+              "insta": "https://www.instagram.com/_srijanbiswas_/",
+              "linkedin": "https://www.linkedin.com/in/srijanbiswas-/"
             },
             {
               "id": "d4",
-              "name": "Subhro Mohanta",
-              "post": "Design Coordinator",
-              "img": "/TeamImages/subhro.webp",
-              "insta": "https://www.instagram.com/just.subhro?igsh=MTcycm43Nzc5NTlneg==",
-              "linkedin": "https://www.linkedin.com/in/subhro-mohanta/"
+              "name": "Susobhan Pradhan",
+              "post": "Video Editor",
+              "img": "/TeamImages/sniket.webp",
+              "insta": "https://www.instagram.com/xpsniket",
+              "linkedin": "https://www.linkedin.com/in/xpsniket"
             },
             {
               "id": "d5",
-              "name": "Hrishikesh Das",
-              "post": "Design Coordinator & Media",
-              "img": "/TeamImages/TS.webp",
-              "insta": "https://www.instagram.com/a_boy_name_hrishi/",
-              "linkedin": "www.linkedin.com/in/dashrishikesh"
+              "name": "Sayan Mahato",
+              "post": "Video Editor",
+              "img": "/TeamImages/sayan.webp",
+              "insta": "https://www.instagram.com/fracxn__/",
+              "linkedin": "https://www.linkedin.com/in/sayan-mahato-1754a830b/"
             },
             {
               "id": "d6",
-              "name": "Amit Mondal",
-              "post": "Design Coordinator",
-              "img": "/TeamImages/amit.webp",
-              "insta": "https://www.instagram.com/amit14_02",
-              "linkedin": "https://www.linkedin.com/in/amit-mondal-578618218/"
+              "name": "Soham Maity",
+              "post": "Video Editor",
+              "img": "/TeamImages/maity.webp",
+              "insta": "https://www.instagram.com/spreadsheets600",
+              "linkedin": "https://www.linkedin.com/in/spreadsheets600/",
+              "github": "https://github.com/spreadsheets600"
             },
             {
               "id": "d7",
-              "name": "Jeet Santra",
-              "post": "Media Lead",
-              "img": "/TeamImages/jeetSantra.webp",
-              "insta": "https://www.instagram.com/iam__jeet_1603?igsh=MmtwcDl6cHlrNTFj",
-              "linkedin": "https://www.linkedin.com/in/jeet-santra-9919b536a/"
+              "name": "Abhinav",
+              "post": "Graphic Designer",
+              "img": "/TeamImages/abhinav.webp",
+              "insta": "https://www.instagram.com/abhinav__goldsmith/"
             },
             {
               "id": "d8",
-              "name": "Surajit Sadhukhan",
+              "name": "Samrin Ankhi",
               "post": "Editor",
-              "img": "/TeamImages/surajit.webp",
-              "insta": "https://www.instagram.com/_.suro_?igsh=MXJwb3FzanY2aWtjeg== ",
+              "img": "/TeamImages/samrin.webp",
+              "insta": "https://www.instagram.com/_.d1ya_/",
               "linkedin": "https://www.linkedin.com/in/surajit-sadhukhan-4b5b62324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             },
             {
@@ -569,19 +569,39 @@
             },
             {
               "id": "d10",
-              "name": "Eman Mahato",
-              "post": "Editor",
-              "img": "/TeamImages/emon.webp",
-              "insta": " https://www.instagram.com/em_eman_2005?igsh=MW0ycnZrdnB5ZjM2MA==",
-              "linkedin": "https://www.linkedin.com/in/eman-mahato-5726a7322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              "name": "Nilotpal Malakar",
+              "post": "Graphic Designer",
+              "img": "/TeamImages/nilotpal.webp",
+              "insta": "https://www.instagram.com/malakarnilotpal/"
             },
             {
               "id": "d11",
-              "name": "Mehul Singh ",
+              "name": "Surajit Sadhukhan",
+              "post": "Graphic Designer",
+              "img": "/TeamImages/surajit.webp",
+              "insta": "https://www.instagram.com/_.suro_/",
+              "linkedin": "https://www.linkedin.com/in/surajit-sadhukhan-4b5b62324/"
+            },
+            {
+              "id": "d12",
+              "name": "Shankho Mondal",
+              "post": "Graphic Designer",
+              "img": "/TeamImages/shankho.webp",
+              "insta": "https://www.instagram.com/shankho_mondal055_finax/"
+            },
+            {
+              "id": "d13",
+              "name": "Biprashis Biswas",
+              "post": "Graphic Designer",
+              "img": "/TeamImages/bitan.webp",
+              "insta": "https://www.instagram.com/the_viking_cosmos/"
+            },
+            {
+              "id": "d14",
+              "name": "Emon Mahato",
               "post": "Editor",
-              "img": "/TeamImages/singh.webp",
-              "insta": "",
-              "linkedin": "https://www.linkedin.com/in/mehul-kumar-singh-655b5432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              "img": "/TeamImages/emon.webp",
+              "insta": "https://www.instagram.com/em_eman_2005/"
             }
           ]
         }
@@ -610,6 +630,15 @@
               "insta": "https://www.instagram.com/just.subhro?igsh=MTcycm43Nzc5NTlneg==",
               "linkedin": "https://www.linkedin.com/in/subhro-mohanta/",
               "github": "https://github.com/imSubhro"
+            },
+            {
+              "id": "Dt3",
+              "name": "Soham Maity",
+              "post": "Contributor",
+              "img": "/TeamImages/subhro.webp",
+              "insta": "https://www.instagram.com/spreadsheets600",
+              "linkedin": "https://www.linkedin.com/in/spreadsheets600/",
+              "github": "https://github.com/spreadsheets600"
             }
           ]
         }
