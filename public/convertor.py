@@ -2,7 +2,7 @@ from PIL import Image
 import os
 import sys
 
-SUPPORTED_EXTENSIONS = (".webp", ".webp", ".jpeg", ".bmp", ".tiff", ".gif")
+SUPPORTED_EXTENSIONS = (".webp", ".webp", ".jpeg", ".bmp", ".tiff", ".gif", ".jpg", ".png")
 
 def convert_to_webp(input_path, output_path=None):
     try:
@@ -12,7 +12,7 @@ def convert_to_webp(input_path, output_path=None):
             base, _ = os.path.splitext(input_path)
             output_path = base + ".webp"
 
-        # Save as WebP lossless
+
         img.save(output_path, "WEBP", quality=60)
         print(f"✅ Converted: {input_path} → {output_path}")
 
@@ -21,7 +21,7 @@ def convert_to_webp(input_path, output_path=None):
 
 
 def process_folder(folder_path):
-    for root, _, files in os.walk(folder_path):  # walk into all subfolders
+    for root, _, files in os.walk(folder_path):  
         for file in files:
             if file.lower().endswith(SUPPORTED_EXTENSIONS):
                 input_file = os.path.join(root, file)
